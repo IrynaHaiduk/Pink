@@ -1,0 +1,15 @@
+.devices {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+.devices__item {
+  margin-right: 36px;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+
+}

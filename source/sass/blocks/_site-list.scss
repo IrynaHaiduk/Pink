@@ -1,0 +1,33 @@
+.site-list__item {
+  border-top: 1px solid $black;
+  box-shadow: inset 0px 1px 0px 0px $grey;
+  box-sizing: border-box;
+/*   height: 63px; */
+
+  &:last-of-type {
+    border-bottom: 1px solid $black;
+  }
+}
+
+.site-list__link {
+  display: block;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $white;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 15px;
+  transition: 0.4s ease;
+
+  &[href]:hover,
+  &[href]:focus {
+      color: $pink;
+
+  }
+
+  &[href]:active {
+     opacity: 0.3;
+  }
+}

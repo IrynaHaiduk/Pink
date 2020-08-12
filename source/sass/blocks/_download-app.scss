@@ -1,0 +1,41 @@
+.download-app {
+  margin-top: -28px;
+  background-color: $dark-blue;
+  position: relative;
+  z-index: 5;
+  padding-top: 27px;
+}
+
+.download-app__button {
+  width: 281px;
+  height: 55px;
+  border: 3px solid $white;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  color: $white;
+  background: transparent;
+  border-radius: 70px;
+  margin-bottom: 37px;
+  cursor: pointer;
+  outline: none;
+  transition: 0.4s ease;
+
+  &:hover,
+  &:focus {
+  background: $white;
+  color: $pink;
+  }
+
+  &:active {
+    color: rgba($pink, 0.3);
+  }
+}
+
+.download-app__text {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  color: $white;
+  text-align: center;
+}

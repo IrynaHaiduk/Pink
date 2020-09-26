@@ -1,0 +1,34 @@
+.copyright__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+
+  &:hover,
+  &:focus {
+    .copyright__logo {
+      fill: $grey-blue;
+    }
+  }
+
+  &:active {
+    .copyright__logo {
+      fill-opacity: 0.3;
+    }
+  }
+}
+
+.copyright__logo {
+  width: 27px;
+  height: 34px;
+  fill: $pink;
+  transition: 0.4s ease;
+}
+
+.copyright__text {
+  margin-right: 15px;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: $grey-blue;
+}

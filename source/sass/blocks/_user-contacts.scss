@@ -1,0 +1,26 @@
+.user-contacts {
+  padding: 0;
+  padding-top: 41px;
+  padding-bottom: 42px;
+}
+
+.user-contacts__item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.user-contacts__label {
+  @include form-title;
+  display: block;
+  margin-bottom: 9px;
+  margin-left: 22px;
+}
+
+.user-contacts__input {
+  @include form-input;
+}

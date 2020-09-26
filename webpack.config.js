@@ -58,15 +58,15 @@ const config = {
                 },
             },
 
-            // {
-            //     test: /\.svg$/,
-            //     loader: 'svg-sprite-loader',
-            //     options: {
-            //         extract: true,
-            //         spriteFilename: 'img/i-sprite.svg',
-            //         runtimeCompat: true
-            //     }
-            // }
+            {
+                test: /\.svg$/,
+                loader: 'svg-sprite-loader',
+                options: {
+                    extract: true,
+                    spriteFilename: 'img/i-sprite.svg',
+                    runtimeCompat: true
+                }
+            }
         ]
     },
     resolve: {

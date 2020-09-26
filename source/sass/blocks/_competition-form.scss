@@ -1,0 +1,99 @@
+.competition-form {
+}
+
+.competition-form__block {
+  border: none;
+}
+
+.competition-form__label {
+  @include form-text;
+  padding-left: 70px;
+  position: relative;
+  display: block;
+  user-select: none;
+  cursor: pointer;
+}
+
+.competition-form__title {
+  @include form-title;
+  text-align: center;
+  margin-bottom: 43px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.competition-form__input + .competition-form__label::after {
+  transition: 0.4s ease;
+}
+
+.competition-form__input + .competition-form__label::before {
+  transition: 0.4s ease;
+}
+
+.competition-form__input + .competition-form__label::before {
+  content: "";
+  position: absolute;
+  width: 39px;
+  height: 39px;
+  border: 2px solid $light2;
+  left: 0;
+  top: 50%;
+  background-color: $white;
+  transform: translateY(-50%);
+}
+
+.competition-form__input:hover + .competition-form__label::before {
+  border-color: $grey-blue;
+}
+
+.competition-form__input:active + .competition-form__label::before,
+.competition-form__input:focus + .competition-form__label::before {
+  border-color: $pink;
+}
+
+.competition-form__input:checked + .competition-form__label::after {
+  content: "";
+  position: absolute;
+}
+
+.competition-form__button {
+  width: 280px;
+  height: 63px;
+  background-color: $green;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $white;
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 35px;
+  transition: 0.4s ease;
+  outline: none;
+
+  &:hover {
+    background-color: $dark-green;
+  }
+
+  &:focus,
+  &:active {
+    background-color: $dark-green;
+    color: rgba($white, 0.3);
+  }
+}
+
+.competition-form__note {
+  font-family: OpenSans;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $grey-blue;
+  text-align: center;
+
+  sup {
+    color: $pink;
+    position: relative;
+    top: -2px;
+  }
+}

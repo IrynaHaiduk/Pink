@@ -7,27 +7,18 @@
   display: none;
 }
 
-@media (max-width: $tablet-width-only) {
-  .main-nav--nojs .main-nav__toggle {
-    display: none;
-  }
+.main-nav__toggle {
+  display: block;
+  width: 50px;
+  height: 24px;
+  border: none;
+  outline: none;
+  position: absolute;
+  background-color: transparent;
+  right: 6.25%;
+  top: 21px;
 
-  .main-nav--nojs .main-nav__list {
-    display: block;
-  }
-
-  .main-nav__toggle {
-    display: block;
-    width: 50px;
-    height: 24px;
-    border: none;
-    outline: none;
-    position: absolute;
-    background-color: transparent;
-    right: 6.25%;
-    top: 21px;
-
-    span {
+  span {
     display: block;
     width: 50px;
     height: 4px;
@@ -41,57 +32,80 @@
     }
   }
 
-    &:hover,
-    &:focus {
-      span {
-        background-color: $pink;
-      }
-    }
-
-    &:active {
-      span {
-        background-color: rgba($white, 0.3);
-      }
-    }
-  }
-
-
-  .main-nav--active .main-nav__list {
-    display: block;
-  }
-
-  .main-nav__toggle--active {
-    width: 24px;
-    height: 24px;
-
+  &:hover,
+  &:focus {
     span {
-      margin-bottom: -4px;
-      width: 32px;
+      background-color: $pink;
+    }
+  }
 
-      &:nth-of-type(1) {
-        transform: rotate(-45deg);
-      }
+  &:active {
+    span {
+      background-color: rgba($white, 0.3);
+    }
+  }
+}
 
-      &:nth-of-type(2) {
-        display: none;
-      }
+.main-nav--nojs .main-nav__toggle {
+  display: none;
+}
 
-      &:nth-of-type(3) {
-        transform: rotate(45deg);
-      }
+.main-nav--nojs .main-nav__list {
+  display: block;
+}
+
+.main-nav--active .main-nav__list {
+  display: block;
+}
+
+.main-nav__toggle--active {
+  width: 24px;
+  height: 24px;
+
+  span {
+    margin-bottom: -4px;
+    width: 32px;
+
+    &:nth-of-type(1) {
+      transform: rotate(-45deg);
     }
 
-    &:hover,
-    &:focus {
-      span {
-        background-color: $pink;
-      }
+    &:nth-of-type(2) {
+      display: none;
     }
 
-    &:active {
-      span {
-        opacity: 0.3;
-      }
+    &:nth-of-type(3) {
+      transform: rotate(45deg);
     }
+  }
+
+  &:hover,
+  &:focus {
+    span {
+      background-color: $pink;
+    }
+  }
+
+  &:active {
+    span {
+      opacity: 0.3;
+    }
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .main-nav__toggle {
+    right: 3%;
+    top: 44px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-nav__toggle {
+    display: none;
+  }
+
+  .main-nav .main-nav__list {
+    display: flex;
   }
 }

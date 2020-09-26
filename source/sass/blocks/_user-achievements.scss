@@ -1,0 +1,33 @@
+.user-achievements {
+  padding: 0;
+  padding-top: 39px;
+  padding-bottom: 45px;
+  background-color: $light4;
+}
+
+.user-achievements__item {
+  margin-bottom: 52px;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.user-achievements__title {
+  width: 250px;
+}
+
+.user-achievements__input + .user-achievements__label::before {
+  border-radius: 3px;
+}
+
+.user-achievements__input:checked + .user-achievements__label::after {
+  background-color: transparent;
+  width: 21px;
+  height: 11px;
+  border-bottom: 1px solid $pink;
+  border-left: 1px solid $pink;
+  top: 5px;
+  left: 10px;
+  transform: rotate(-45deg);
+}

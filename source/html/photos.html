@@ -13,7 +13,7 @@
   <header class="page-header js-page-header page-header--nojs">
     <div class="page-header__wrapper">
       <div class="page-header__logo js-page-header__logo">
-        <a class="page-header__link">
+        <a class="page-header__link" href="index.html">
           <svg role="img" class="page-header__logo-mb" width="74.42" height="22.86" alt="Логотип Pink">
             <use xlink:href="/build/img/i-sprite.svg#logo-mb">
             </use>
@@ -38,12 +38,12 @@
         </button>
         <ul class="main-nav__list site-list js-site-list">
           <li class="site-list__item">
-            <a class="site-list__link site-list__link--active">
+            <a class="site-list__link" href="index.html">
               Главная
             </a>
           </li>
           <li class="site-list__item">
-            <a href="photos.html" class="site-list__link">
+            <a href="photos.html" class="site-list__link site-list__link--active">
               Фотографии
             </a>
           </li>
@@ -62,46 +62,14 @@
     </div>
   </header>
 
-  <main class="page-main">
-    <section class="page-main__promo promo promo--index">
+  <main class="page-photos">
+    <section class="page-photos__promo promo">
       <div class="container">
-        <div class="promo__wrapper">
-          <h1 class="promo__header promo__header--index">
-            Взгляните на жизнь иначе!
-          </h1>
-        </div>
+        <h1 class="promo__header promo__header--photos">
+          Фотографии
+          пользователей
+        </h1>
       </div>
-
-      <div class="promo__app">
-        <picture>
-          <source media="(min-width: 1200px" srcset="/build/img/promo-app-desktop.png">
-          <source media="(min-width: 660px)" srcset="/build/img/promo-app-tablet.png">
-          <img src="/build/img/promo-app-mb.png" width="320" height="314" alt="Pink app">
-        </picture>
-      </div>
-
-      <div class="promo__download download-app">
-        <div class="container">
-          <div class="download-app__wrapper">
-            <button class="download-app__button">
-              Скачать приложение
-            </button>
-            <ul class="download-app__list devices">
-              <li class="devices__item">
-                <img src="/build/img/apple-logo.png" alt="apple-device" width="47" height="56">
-              </li>
-              <li class="devices__item">
-                <img src="/build/img/android-logo.png" alt="android-device" width="43" height="47">
-              </li>
-              <li class="devices__item">
-                <img src="/build/img/microsoft-logo.png" alt="microsoft-device" width="44" height="41">
-              </li>
-            </ul>
-            <p class="download-app__text">
-              Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
-            </p>
-          </div>
-        </div>
       </div>
     </section>
   </main>

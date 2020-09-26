@@ -23,11 +23,12 @@
 
   &:hover,
   &:focus {
-  background: $white;
-  color: $pink;
+    background: $white;
+    color: $pink;
   }
 
   &:active {
+    background: $white;
     color: rgba($pink, 0.3);
   }
 }
@@ -38,4 +39,27 @@
   font-weight: 300;
   color: $white;
   text-align: center;
+}
+
+@media (min-width: $tablet-width) {
+  .download-app {
+    margin-top: 0;
+    background-color: transparent;
+    position: relative;
+    z-index: 5;
+    padding-top: 0;
+  }
+
+  .download-app__wrapper {
+    width: 300px;
+  }
+
+  .download-app__button {
+    width: 300px;
+    margin-bottom: 46px;
+  }
+
+  .download-app__text {
+    font-size: 18px;
+  }
 }

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pink: main page</title>
+  <link rel="stylesheet" href="/build/bundle.css">
+</head>
+
+<body>
+  <header class="page-header js-page-header page-header--nojs">
+    <div class="page-header__wrapper">
+      <div class="page-header__logo js-page-header__logo">
+        <a class="page-header__link" href="index.html">
+          <svg role="img" class="page-header__logo-mb" width="74.42" height="22.86" alt="Логотип Pink">
+            <use xlink:href="/build/img/i-sprite.svg#logo-mb">
+            </use>
+          </svg>
+          <svg role="img" class="page-header__logo-tablet" width="146.3" height="40.37" alt="Логотип Pink">
+            <use xlink:href="/build/img/i-sprite.svg#logo-tablet">
+            </use>
+          </svg>
+          <svg role="img" class="page-header__logo-desktop" width="146.3" height="40.37" alt="Логотип Pink">
+            <use xlink:href="/build/img/i-sprite.svg#logo-desktop">
+            </use>
+          </svg>
+        </a>
+      </div>
+
+
+      <nav class="page-header__main-nav main-nav js-main-nav main-nav--nojs">
+        <button class="main-nav__toggle js-main-nav__toggle" type="button" aria-label="Открыть">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="main-nav__list site-list js-site-list">
+          <li class="site-list__item">
+            <a class="site-list__link" href="index.html">
+              Главная
+            </a>
+          </li>
+          <li class="site-list__item">
+            <a href="photos.html" class="site-list__link">
+              Фотографии
+            </a>
+          </li>
+          <li class="site-list__item">
+            <a href="competition.html" class="site-list__link site-list__link--active">
+              Конкурс
+            </a>
+          </li>
+          <li class="site-list__item">
+            <a href="https://htmlacademy.ru/" class="site-list__link">
+              HTML Academy
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-competition">
+    <section class="page-competition__promo promo">
+      <div class="container">
+        <h1 class="promo__header promo__header--competition">
+          Конкурс на самое безбашенное путешествие с Пинк
+        </h1>
+      </div>
+    </section>
+
+    <div class="container">
+      <p class="page-competition__conditions">
+        Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту!
+        <span>Пожалуйста, заполните форму ниже:</span>
+      </p>
+    </div>
+
+    <form class="page-competition__competition-form competition-form" action="https://echo.htmlacademy.ru/courses"
+      method="post">
+
+      <fieldset class="competition-form__block user-data">
+        <div class="container">
+          <legend class="user-data__title competition-form__title visually-hidden">
+            Ваши данные:
+          </legend>
+
+          <div class="user-data__item">
+            <label class="user-data__label" for="surname">
+              Фамилия:
+            </label>
+            <input class="user-data__input" type="text" id="surname" name="user-surname" placeholder="Укажите фамилию *"
+              required>
+          </div>
+
+          <div class="user-data__item">
+            <label class="user-data__label" for="name">
+              Имя:
+            </label>
+            <input class="user-data__input" type="text" id="name" name="user-name" placeholder="Введите ваше имя *"
+              required>
+          </div>
+
+          <div class="user-data__item">
+            <label class="user-data__label" for="patronymic">
+              Отчество:
+            </label>
+            <input class="user-data__input" type="text" id="patronymic" name="user-patronymic"
+              placeholder="Ну и отчество тоже" required>
+          </div>
+        </div>
+      </fieldset>
+
+
+      <fieldset class="competition-form__block user-achievements">
+        <div class="container">
+          <legend class="user-achievements__title competition-form__title">
+            Ваши безбашенные
+            достижения в путешествии
+          </legend>
+
+          <div class="user-achievements__item">
+            <input class="user-achievements__input competition-form__input visually-hidden" type="checkbox"
+              name="achievement1" id="achievement1-field" checked>
+            <label class="user-achievements__label competition-form__label" for="achievement1-field">
+              Сделал селфи с акулой
+            </label>
+          </div>
+
+          <div class="user-achievements__item">
+            <input class="user-achievements__input competition-form__input visually-hidden" type="checkbox"
+              name="achievement2" id="achievement2-field" checked>
+            <label class="user-achievements__label competition-form__label" for="achievement2-field">
+              Обгорел на пляже
+            </label>
+          </div>
+
+          <div class="user-achievements__item">
+            <input class="user-achievements__input competition-form__input visually-hidden" type="checkbox"
+              name="achievement3" id="achievement3-field">
+            <label class="user-achievements__label competition-form__label" for="achievement3-field">
+              Видел Чака Норриса
+            </label>
+          </div>
+
+          <div class="user-achievements__item">
+            <input class="user-achievements__input competition-form__input visually-hidden" type="checkbox"
+              name="achievement4" id="achievement4-field">
+            <label class="user-achievements__label competition-form__label" for="achievement4-field">
+              Накупил сувениров
+            </label>
+          </div>
+
+          <div class="user-achievements__item">
+            <input class="user-achievements__input competition-form__input visually-hidden" type="checkbox"
+              name="achievement5" id="achievement5-field" checked>
+            <label class="user-achievements__label competition-form__label" for="achievement5-field">
+              Удержал башню
+            </label>
+          </div>
+
+          <div class="user-achievements__item">
+            <input class="user-achievements__input competition-form__input visually-hidden" type="checkbox"
+              name="achievement6" id="achievement6-field">
+            <label class="user-achievements__label competition-form__label" for="achievement6-field">
+              Разгромил отель
+            </label>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset class="competition-form__block user-contacts">
+        <div class="container">
+          <legend class="user-contacts__title competition-form__title visually-hidden">
+            Ваши контакты:
+          </legend>
+
+          <div class="user-contacts__item">
+            <label class="user-contacts__label" for="phone">
+              Номер телефона:
+            </label>
+            <input class="user-contacts__input" type="text" id="phone" name="user-phone" placeholder="Номер, пожалуйста"
+              required>
+          </div>
+
+
+          <div class="user-contacts__item">
+            <label class="user-contacts__label" for="email">
+              Адрес почты:
+            </label>
+            <input class="user-contacts__input" type="text" id="email" name="user-email" placeholder="Введите почту *"
+              required>
+          </div>
+
+        </div>
+      </fieldset>
+
+      <fieldset class="competition-form__block user-app">
+        <div class="container">
+          <legend class="user-app__title competition-form__title">
+            С каким приложением
+            путешествовали?
+          </legend>
+
+
+          <div class="user-app__item">
+            <input class="user-app__input competition-form__input visually-hidden" type="radio" name="user-app"
+              id="user-app1-field" checked>
+            <label class="user-app__label competition-form__label" for="user-app1-field">
+              Pink для iOS
+            </label>
+          </div>
+
+          <div class="user-app__item">
+            <input class="user-app__input competition-form__input visually-hidden" type="radio" name="user-app"
+              id="user-app2-field">
+            <label class="user-app__label competition-form__label" for="user-app2-field">
+              Pink на Android
+            </label>
+          </div>
+
+          <div class="user-app__item">
+            <input class="user-app__input competition-form__input visually-hidden" type="radio" name="user-app"
+              id="user-app3-field">
+            <label class="user-app__label competition-form__label" for="user-app3-field">
+              Windows Phone
+            </label>
+          </div>
+      </fieldset>
+
+      <fieldset class="competition-form__block user-rewiev">
+        <div class="container">
+          <legend class="user-rewiev__title competition-form__title">
+            Опишите свои эмоции:
+          </legend>
+
+          <div class="user-rewiev__item">
+            <label class="user-rewiev__label visually-hidden" for="rewiev">
+              Ваш отзыв:
+            </label>
+            <textarea class="user-rewiev__input" type="text" id="rewiev" name="user-rewiev"
+              placeholder="Можно прям в красках, не стесняясь в выражениях" required></textarea>
+          </div>
+        </div>
+      </fieldset>
+
+      <div class="competition-form__container">
+        <div class="container">
+          <button class="competition-form__button" type="submit" aria-label="Send request">
+            Отправить форму
+          </button>
+          <p class="competition-form__note">
+            <sup>*</sup> — Обязательные поля
+          </p>
+        </div>
+      </div>
+
+
+
+    </form>
+
+  </main>
+
+  <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+  <script src="/build/bundle.js"></script>
+
+</body>
+
+</html>

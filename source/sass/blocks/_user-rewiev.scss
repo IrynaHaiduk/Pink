@@ -1,0 +1,19 @@
+.user-rewiev {
+  padding: 0;
+  padding-top: 38px;
+  padding-bottom: 45px;
+}
+
+.user-rewiev__input {
+  @include form-input;
+  height: 201px;
+  padding-top: 13px;
+  padding-left: 18px;
+  padding-bottom: 13px;
+  padding-left: 18px;
+  resize: none;
+}
+
+.user-rewiev__title {
+  margin-bottom: 16px;
+}

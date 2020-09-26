@@ -1,0 +1,32 @@
+.user-app {
+  padding: 0;
+  background-color: $light4;
+  padding-top: 39px;
+  padding-bottom: 47px;
+}
+
+.user-app__item {
+  margin-bottom: 45px;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.user-app__input + .user-app__label::before {
+  border-radius: 50%;
+}
+
+.user-app__input:checked + .user-app__label::after {
+  background-color: $pink;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+}
+
+.user-app__title {
+  margin-bottom: 39px;
+}

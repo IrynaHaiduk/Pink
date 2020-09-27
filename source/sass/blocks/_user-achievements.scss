@@ -31,3 +31,9 @@
   left: 10px;
   transform: rotate(-45deg);
 }
+
+@media (min-width: $tablet-width) {
+  .user-achievements {
+    order: 4;
+  }
+}

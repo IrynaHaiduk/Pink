@@ -17,3 +17,9 @@
 .user-rewiev__title {
   margin-bottom: 16px;
 }
+
+@media (min-width: $tablet-width) {
+  .user-rewiev {
+    order: 5;
+  }
+}

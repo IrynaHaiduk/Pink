@@ -22,3 +22,26 @@
 .user-data__input {
   @include form-input;
 }
+
+@media (min-width: $tablet-width) {
+  .user-data {
+    order: 1;
+    padding-bottom: 27px;
+  }
+
+  .user-data__item {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 52px;
+  }
+
+  .user-data__label {
+    margin-right: 20px;
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+
+  .user-data__input {
+    padding-top: 19px;
+  }
+}

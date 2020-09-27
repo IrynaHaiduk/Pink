@@ -24,3 +24,9 @@
 .user-contacts__input {
   @include form-input;
 }
+
+@media (min-width: $tablet-width) {
+  .user-contacts {
+    order: 3;
+  }
+}

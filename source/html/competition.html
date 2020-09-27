@@ -72,180 +72,185 @@
       </div>
     </section>
 
-    <div class="container">
-      <p class="page-competition__conditions">
-        Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту!
-        <span>Пожалуйста, заполните форму ниже:</span>
-      </p>
+    <div class="page-competition__conditions">
+      <div class="container">
+        <p class="page-competition__text">
+          Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту!
+          <span>Пожалуйста, заполните форму ниже:</span>
+        </p>
+      </div>
     </div>
 
     <form class="page-competition__competition-form competition-form" action="https://echo.htmlacademy.ru/courses"
       method="post">
 
-      <fieldset class="competition-form__block user-data">
-        <div class="container">
-          <legend class="user-data__title competition-form__title visually-hidden">
-            Ваши данные:
-          </legend>
+      <div class="competition-form__wrapper">
 
-          <div class="user-data__item">
-            <label class="user-data__label" for="surname">
-              Фамилия:
-            </label>
-            <input class="user-data__input" type="text" id="surname" name="user-surname" placeholder="Укажите фамилию *"
-              required>
+        <fieldset class="competition-form__block user-data">
+          <div class="container">
+            <legend class="user-data__title competition-form__title visually-hidden">
+              Ваши данные:
+            </legend>
+
+            <div class="user-data__item">
+              <label class="user-data__label" for="surname">
+                Фамилия:
+              </label>
+              <input class="user-data__input" type="text" id="surname" name="user-surname"
+                placeholder="Укажите фамилию *" required>
+            </div>
+
+            <div class="user-data__item">
+              <label class="user-data__label" for="name">
+                Имя:
+              </label>
+              <input class="user-data__input" type="text" id="name" name="user-name" placeholder="Введите ваше имя *"
+                required>
+            </div>
+
+            <div class="user-data__item">
+              <label class="user-data__label" for="patronymic">
+                Отчество:
+              </label>
+              <input class="user-data__input" type="text" id="patronymic" name="user-patronymic"
+                placeholder="Ну и отчество тоже" required>
+            </div>
           </div>
+        </fieldset>
 
-          <div class="user-data__item">
-            <label class="user-data__label" for="name">
-              Имя:
-            </label>
-            <input class="user-data__input" type="text" id="name" name="user-name" placeholder="Введите ваше имя *"
-              required>
+
+        <fieldset class="competition-form__block user-achievements">
+          <div class="container">
+            <legend class="user-achievements__title competition-form__title">
+              Ваши безбашенные
+              достижения в путешествии
+            </legend>
+
+            <div class="user-achievements__item">
+              <input class="user-achievements__input competition-form__input visually-hidden" type="checkbox"
+                name="achievement1" id="achievement1-field" checked>
+              <label class="user-achievements__label competition-form__label" for="achievement1-field">
+                Сделал селфи с акулой
+              </label>
+            </div>
+
+            <div class="user-achievements__item">
+              <input class="user-achievements__input competition-form__input visually-hidden" type="checkbox"
+                name="achievement2" id="achievement2-field" checked>
+              <label class="user-achievements__label competition-form__label" for="achievement2-field">
+                Обгорел на пляже
+              </label>
+            </div>
+
+            <div class="user-achievements__item">
+              <input class="user-achievements__input competition-form__input visually-hidden" type="checkbox"
+                name="achievement3" id="achievement3-field">
+              <label class="user-achievements__label competition-form__label" for="achievement3-field">
+                Видел Чака Норриса
+              </label>
+            </div>
+
+            <div class="user-achievements__item">
+              <input class="user-achievements__input competition-form__input visually-hidden" type="checkbox"
+                name="achievement4" id="achievement4-field">
+              <label class="user-achievements__label competition-form__label" for="achievement4-field">
+                Накупил сувениров
+              </label>
+            </div>
+
+            <div class="user-achievements__item">
+              <input class="user-achievements__input competition-form__input visually-hidden" type="checkbox"
+                name="achievement5" id="achievement5-field" checked>
+              <label class="user-achievements__label competition-form__label" for="achievement5-field">
+                Удержал башню
+              </label>
+            </div>
+
+            <div class="user-achievements__item">
+              <input class="user-achievements__input competition-form__input visually-hidden" type="checkbox"
+                name="achievement6" id="achievement6-field">
+              <label class="user-achievements__label competition-form__label" for="achievement6-field">
+                Разгромил отель
+              </label>
+            </div>
           </div>
+        </fieldset>
 
-          <div class="user-data__item">
-            <label class="user-data__label" for="patronymic">
-              Отчество:
-            </label>
-            <input class="user-data__input" type="text" id="patronymic" name="user-patronymic"
-              placeholder="Ну и отчество тоже" required>
+        <fieldset class="competition-form__block user-contacts">
+          <div class="container">
+            <legend class="user-contacts__title competition-form__title visually-hidden">
+              Ваши контакты:
+            </legend>
+
+            <div class="user-contacts__item">
+              <label class="user-contacts__label" for="phone">
+                Номер телефона:
+              </label>
+              <input class="user-contacts__input" type="text" id="phone" name="user-phone"
+                placeholder="Номер, пожалуйста" required>
+            </div>
+
+
+            <div class="user-contacts__item">
+              <label class="user-contacts__label" for="email">
+                Адрес почты:
+              </label>
+              <input class="user-contacts__input" type="text" id="email" name="user-email" placeholder="Введите почту *"
+                required>
+            </div>
+
           </div>
-        </div>
-      </fieldset>
+        </fieldset>
+
+        <fieldset class="competition-form__block user-app">
+          <div class="container">
+            <legend class="user-app__title competition-form__title">
+              С каким приложением
+              путешествовали?
+            </legend>
 
 
-      <fieldset class="competition-form__block user-achievements">
-        <div class="container">
-          <legend class="user-achievements__title competition-form__title">
-            Ваши безбашенные
-            достижения в путешествии
-          </legend>
+            <div class="user-app__item">
+              <input class="user-app__input competition-form__input visually-hidden" type="radio" name="user-app"
+                id="user-app1-field" checked>
+              <label class="user-app__label competition-form__label" for="user-app1-field">
+                Pink для iOS
+              </label>
+            </div>
 
-          <div class="user-achievements__item">
-            <input class="user-achievements__input competition-form__input visually-hidden" type="checkbox"
-              name="achievement1" id="achievement1-field" checked>
-            <label class="user-achievements__label competition-form__label" for="achievement1-field">
-              Сделал селфи с акулой
-            </label>
+            <div class="user-app__item">
+              <input class="user-app__input competition-form__input visually-hidden" type="radio" name="user-app"
+                id="user-app2-field">
+              <label class="user-app__label competition-form__label" for="user-app2-field">
+                Pink на Android
+              </label>
+            </div>
+
+            <div class="user-app__item">
+              <input class="user-app__input competition-form__input visually-hidden" type="radio" name="user-app"
+                id="user-app3-field">
+              <label class="user-app__label competition-form__label" for="user-app3-field">
+                Windows Phone
+              </label>
+            </div>
+        </fieldset>
+
+        <fieldset class="competition-form__block user-rewiev">
+          <div class="container">
+            <legend class="user-rewiev__title competition-form__title">
+              Опишите свои эмоции:
+            </legend>
+
+            <div class="user-rewiev__item">
+              <label class="user-rewiev__label visually-hidden" for="rewiev">
+                Ваш отзыв:
+              </label>
+              <textarea class="user-rewiev__input" type="text" id="rewiev" name="user-rewiev"
+                placeholder="Можно прям в красках, не стесняясь в выражениях" required></textarea>
+            </div>
           </div>
-
-          <div class="user-achievements__item">
-            <input class="user-achievements__input competition-form__input visually-hidden" type="checkbox"
-              name="achievement2" id="achievement2-field" checked>
-            <label class="user-achievements__label competition-form__label" for="achievement2-field">
-              Обгорел на пляже
-            </label>
-          </div>
-
-          <div class="user-achievements__item">
-            <input class="user-achievements__input competition-form__input visually-hidden" type="checkbox"
-              name="achievement3" id="achievement3-field">
-            <label class="user-achievements__label competition-form__label" for="achievement3-field">
-              Видел Чака Норриса
-            </label>
-          </div>
-
-          <div class="user-achievements__item">
-            <input class="user-achievements__input competition-form__input visually-hidden" type="checkbox"
-              name="achievement4" id="achievement4-field">
-            <label class="user-achievements__label competition-form__label" for="achievement4-field">
-              Накупил сувениров
-            </label>
-          </div>
-
-          <div class="user-achievements__item">
-            <input class="user-achievements__input competition-form__input visually-hidden" type="checkbox"
-              name="achievement5" id="achievement5-field" checked>
-            <label class="user-achievements__label competition-form__label" for="achievement5-field">
-              Удержал башню
-            </label>
-          </div>
-
-          <div class="user-achievements__item">
-            <input class="user-achievements__input competition-form__input visually-hidden" type="checkbox"
-              name="achievement6" id="achievement6-field">
-            <label class="user-achievements__label competition-form__label" for="achievement6-field">
-              Разгромил отель
-            </label>
-          </div>
-        </div>
-      </fieldset>
-
-      <fieldset class="competition-form__block user-contacts">
-        <div class="container">
-          <legend class="user-contacts__title competition-form__title visually-hidden">
-            Ваши контакты:
-          </legend>
-
-          <div class="user-contacts__item">
-            <label class="user-contacts__label" for="phone">
-              Номер телефона:
-            </label>
-            <input class="user-contacts__input" type="text" id="phone" name="user-phone" placeholder="Номер, пожалуйста"
-              required>
-          </div>
-
-
-          <div class="user-contacts__item">
-            <label class="user-contacts__label" for="email">
-              Адрес почты:
-            </label>
-            <input class="user-contacts__input" type="text" id="email" name="user-email" placeholder="Введите почту *"
-              required>
-          </div>
-
-        </div>
-      </fieldset>
-
-      <fieldset class="competition-form__block user-app">
-        <div class="container">
-          <legend class="user-app__title competition-form__title">
-            С каким приложением
-            путешествовали?
-          </legend>
-
-
-          <div class="user-app__item">
-            <input class="user-app__input competition-form__input visually-hidden" type="radio" name="user-app"
-              id="user-app1-field" checked>
-            <label class="user-app__label competition-form__label" for="user-app1-field">
-              Pink для iOS
-            </label>
-          </div>
-
-          <div class="user-app__item">
-            <input class="user-app__input competition-form__input visually-hidden" type="radio" name="user-app"
-              id="user-app2-field">
-            <label class="user-app__label competition-form__label" for="user-app2-field">
-              Pink на Android
-            </label>
-          </div>
-
-          <div class="user-app__item">
-            <input class="user-app__input competition-form__input visually-hidden" type="radio" name="user-app"
-              id="user-app3-field">
-            <label class="user-app__label competition-form__label" for="user-app3-field">
-              Windows Phone
-            </label>
-          </div>
-      </fieldset>
-
-      <fieldset class="competition-form__block user-rewiev">
-        <div class="container">
-          <legend class="user-rewiev__title competition-form__title">
-            Опишите свои эмоции:
-          </legend>
-
-          <div class="user-rewiev__item">
-            <label class="user-rewiev__label visually-hidden" for="rewiev">
-              Ваш отзыв:
-            </label>
-            <textarea class="user-rewiev__input" type="text" id="rewiev" name="user-rewiev"
-              placeholder="Можно прям в красках, не стесняясь в выражениях" required></textarea>
-          </div>
-        </div>
-      </fieldset>
+        </fieldset>
+      </div>
 
       <div class="competition-form__container">
         <div class="container">

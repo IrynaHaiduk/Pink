@@ -27,7 +27,18 @@
     width: 490px;
 
     span {
-      display: block;
+      display: inline-block;
     }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-competition__text {
+    font-size: 18px;
+    width: 756px;
+  }
+
+  .page-competition__conditions {
+    margin-bottom: 80px;
   }
 }

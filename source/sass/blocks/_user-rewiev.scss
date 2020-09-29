@@ -21,5 +21,18 @@
 @media (min-width: $tablet-width) {
   .user-rewiev {
     order: 5;
+    padding-bottom: 67px;
+
+    .container {
+      padding-bottom: 48px;
+    }
+  }
+
+  .user-rewiev__title {
+    margin-bottom: 33px;
+  }
+
+  .user-rewiev__input {
+    height: 192px;
   }
 }

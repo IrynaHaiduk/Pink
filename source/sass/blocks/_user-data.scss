@@ -45,3 +45,15 @@
     padding-top: 19px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .user-data {
+    margin-right: 70px;
+    padding-bottom: 0;
+    margin-bottom: 26px;
+
+    .container {
+      width: 435px;
+    }
+  }
+}

@@ -34,7 +34,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 55px;
+  padding-top: 40px;
   padding-bottom: 40px;
 }
 
@@ -46,19 +46,19 @@
   .page-footer__wrapper {
     flex-direction: row;
     align-items: center;
-    padding-top: 70px;
-    padding-bottom: 78px;
+    justify-content: space-between;
+    padding-top: 39px;
+    padding-bottom: 37px;
   }
 
   .page-footer__logo {
     margin-bottom: 0;
-    margin-right: 71px;
     align-self: self-start;
   }
 
   .page-footer__social {
     margin-bottom: 0;
-    margin-right: auto;
+    margin-right: 20px;
   }
 }
 
@@ -69,5 +69,9 @@
 
   .page-footer__img--desktop {
     display: block;
+  }
+
+  .page-footer__social {
+    margin-right: 11px;
   }
 }

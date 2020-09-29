@@ -75,8 +75,8 @@
     <div class="page-competition__conditions">
       <div class="container">
         <p class="page-competition__text">
-          Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту!
-          <span>Пожалуйста, заполните форму ниже:</span>
+          Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную
+          карту! <span>Пожалуйста, заполните форму ниже:</span>
         </p>
       </div>
     </div>
@@ -88,33 +88,37 @@
 
         <fieldset class="competition-form__block user-data">
           <div class="container">
-            <legend class="user-data__title competition-form__title visually-hidden">
-              Ваши данные:
-            </legend>
 
-            <div class="user-data__item">
-              <label class="user-data__label" for="surname">
-                Фамилия:
-              </label>
-              <input class="user-data__input" type="text" id="surname" name="user-surname"
-                placeholder="Укажите фамилию *" required>
+            <div class="user-data__wrapper">
+              <legend class="user-data__title competition-form__title visually-hidden">
+                Ваши данные:
+              </legend>
+
+              <div class="user-data__item">
+                <label class="user-data__label" for="surname">
+                  Фамилия:
+                </label>
+                <input class="user-data__input" type="text" id="surname" name="user-surname"
+                  placeholder="Укажите фамилию *" required>
+              </div>
+
+              <div class="user-data__item">
+                <label class="user-data__label" for="name">
+                  Имя:
+                </label>
+                <input class="user-data__input" type="text" id="name" name="user-name" placeholder="Введите ваше имя *"
+                  required>
+              </div>
+
+              <div class="user-data__item">
+                <label class="user-data__label" for="patronymic">
+                  Отчество:
+                </label>
+                <input class="user-data__input" type="text" id="patronymic" name="user-patronymic"
+                  placeholder="Ну и отчество тоже" required>
+              </div>
             </div>
 
-            <div class="user-data__item">
-              <label class="user-data__label" for="name">
-                Имя:
-              </label>
-              <input class="user-data__input" type="text" id="name" name="user-name" placeholder="Введите ваше имя *"
-                required>
-            </div>
-
-            <div class="user-data__item">
-              <label class="user-data__label" for="patronymic">
-                Отчество:
-              </label>
-              <input class="user-data__input" type="text" id="patronymic" name="user-patronymic"
-                placeholder="Ну и отчество тоже" required>
-            </div>
           </div>
         </fieldset>
 
@@ -126,77 +130,82 @@
               достижения в путешествии
             </legend>
 
-            <div class="user-achievements__item">
-              <input class="user-achievements__input competition-form__input visually-hidden" type="checkbox"
-                name="achievement1" id="achievement1-field" checked>
-              <label class="user-achievements__label competition-form__label" for="achievement1-field">
-                Сделал селфи с акулой
-              </label>
+            <div class="user-achievements__wrapper">
+              <div class="user-achievements__item">
+                <input class="user-achievements__input competition-form__input visually-hidden" type="checkbox"
+                  name="achievement1" id="achievement1-field" checked>
+                <label class="user-achievements__label competition-form__label" for="achievement1-field">
+                  Сделал селфи с акулой
+                </label>
+              </div>
+
+              <div class="user-achievements__item">
+                <input class="user-achievements__input competition-form__input visually-hidden" type="checkbox"
+                  name="achievement2" id="achievement2-field" checked>
+                <label class="user-achievements__label competition-form__label" for="achievement2-field">
+                  Обгорел на пляже
+                </label>
+              </div>
+
+              <div class="user-achievements__item">
+                <input class="user-achievements__input competition-form__input visually-hidden" type="checkbox"
+                  name="achievement3" id="achievement3-field">
+                <label class="user-achievements__label competition-form__label" for="achievement3-field">
+                  Видел Чака Норриса
+                </label>
+              </div>
+
+              <div class="user-achievements__item">
+                <input class="user-achievements__input competition-form__input visually-hidden" type="checkbox"
+                  name="achievement4" id="achievement4-field">
+                <label class="user-achievements__label competition-form__label" for="achievement4-field">
+                  Накупил сувениров
+                </label>
+              </div>
+
+              <div class="user-achievements__item">
+                <input class="user-achievements__input competition-form__input visually-hidden" type="checkbox"
+                  name="achievement5" id="achievement5-field" checked>
+                <label class="user-achievements__label competition-form__label" for="achievement5-field">
+                  Удержал башню
+                </label>
+              </div>
+
+              <div class="user-achievements__item">
+                <input class="user-achievements__input competition-form__input visually-hidden" type="checkbox"
+                  name="achievement6" id="achievement6-field">
+                <label class="user-achievements__label competition-form__label" for="achievement6-field">
+                  Разгромил отель
+                </label>
+              </div>
             </div>
 
-            <div class="user-achievements__item">
-              <input class="user-achievements__input competition-form__input visually-hidden" type="checkbox"
-                name="achievement2" id="achievement2-field" checked>
-              <label class="user-achievements__label competition-form__label" for="achievement2-field">
-                Обгорел на пляже
-              </label>
-            </div>
 
-            <div class="user-achievements__item">
-              <input class="user-achievements__input competition-form__input visually-hidden" type="checkbox"
-                name="achievement3" id="achievement3-field">
-              <label class="user-achievements__label competition-form__label" for="achievement3-field">
-                Видел Чака Норриса
-              </label>
-            </div>
-
-            <div class="user-achievements__item">
-              <input class="user-achievements__input competition-form__input visually-hidden" type="checkbox"
-                name="achievement4" id="achievement4-field">
-              <label class="user-achievements__label competition-form__label" for="achievement4-field">
-                Накупил сувениров
-              </label>
-            </div>
-
-            <div class="user-achievements__item">
-              <input class="user-achievements__input competition-form__input visually-hidden" type="checkbox"
-                name="achievement5" id="achievement5-field" checked>
-              <label class="user-achievements__label competition-form__label" for="achievement5-field">
-                Удержал башню
-              </label>
-            </div>
-
-            <div class="user-achievements__item">
-              <input class="user-achievements__input competition-form__input visually-hidden" type="checkbox"
-                name="achievement6" id="achievement6-field">
-              <label class="user-achievements__label competition-form__label" for="achievement6-field">
-                Разгромил отель
-              </label>
-            </div>
           </div>
         </fieldset>
 
         <fieldset class="competition-form__block user-contacts">
           <div class="container">
-            <legend class="user-contacts__title competition-form__title visually-hidden">
-              Ваши контакты:
+            <legend class="user-contacts__title competition-form__title">
+              Контактная информация:
             </legend>
 
-            <div class="user-contacts__item">
-              <label class="user-contacts__label" for="phone">
-                Номер телефона:
-              </label>
-              <input class="user-contacts__input" type="text" id="phone" name="user-phone"
-                placeholder="Номер, пожалуйста" required>
-            </div>
+            <div class="user-contacts__wrapper">
+              <div class="user-contacts__item">
+                <label class="user-contacts__label" for="phone">
+                  Номер телефона:
+                </label>
+                <input class="user-contacts__input user-contacts__input--phone" type="text" id="phone" name="user-phone"
+                  placeholder="Номер, пожалуйста" required>
+              </div>
 
-
-            <div class="user-contacts__item">
-              <label class="user-contacts__label" for="email">
-                Адрес почты:
-              </label>
-              <input class="user-contacts__input" type="text" id="email" name="user-email" placeholder="Введите почту *"
-                required>
+              <div class="user-contacts__item">
+                <label class="user-contacts__label" for="email">
+                  Адрес почты:
+                </label>
+                <input class="user-contacts__input user-contacts__input--mail" type="text" id="email" name="user-email"
+                  placeholder="Введите почту *" required>
+              </div>
             </div>
 
           </div>
@@ -252,14 +261,16 @@
         </fieldset>
       </div>
 
-      <div class="competition-form__container">
+      <div class="competition-form__submit">
         <div class="container">
-          <button class="competition-form__button" type="submit" aria-label="Send request">
-            Отправить форму
-          </button>
-          <p class="competition-form__note">
-            <sup>*</sup> — Обязательные поля
-          </p>
+          <div class="competition-form__container">
+            <button class="competition-form__button" type="submit" aria-label="Send request">
+              Отправить форму
+            </button>
+            <p class="competition-form__note">
+              <sup>*</sup> — Обязательные поля
+            </p>
+          </div>
         </div>
       </div>
     </form>

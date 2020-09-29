@@ -35,5 +35,38 @@
 @media (min-width: $tablet-width) {
   .user-achievements {
     order: 4;
+    background-color: transparent;
+    padding-top: 25px;
+    padding-bottom: 28px;
+
+    .container {
+      padding-bottom: 51px;
+    }
+  }
+
+  .user-achievements__title {
+    width: auto;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .user-achievements__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .user-achievements__item {
+    margin-right: 53px;
+
+    &:nth-of-type(3n) {
+      margin-right: 0;
+    }
+    width: 260px;
+
+    &:last-of-type,
+    &:nth-last-of-type(2),
+    &:nth-last-of-type(3) {
+      margin-bottom: 0;
+    }
   }
 }

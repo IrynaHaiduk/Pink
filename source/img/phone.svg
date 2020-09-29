@@ -1,3 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="19" viewBox="0 0 20 19">
-  <image id="phone.svg" width="20" height="19" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAABSElEQVQ4jZ2U3W3CQBCEv1guwKkg8JbHdBCoIDzxbCowqYB0AFTglBAqMHTgpAKX4BKilWaly8U/J0Y6ydrbm7ud2fXDz/MWoQA2wCuwAFZM4wp0wA34AnrLdsISOIr0HhjZO/CZAy9AfSdRWJ1xtEZYDSScgMsMyRuwj2JVJt1iXKQR0ukaaIa+hy7cZCO6tbq9ieRotPZuQlx6Loec9KZEW0+KmeMfwTfaa2VEoc4w9GHbhCgTjNqZq3EwSyTrAv0ctXInCWMyK30NLLXWkXb/SEPCoZc5gZvhF4y+NJ8ga7WaYAyPImw1ECEpPimrEQPc+bDEPtqLX9qNTQpqkVJufit2UmwxcqbKZ34ItQ57e1hDHybyi3xi03GYIfkDc/mcmpyAs4/eoxw0fXykUmBnzG2TxM70XrK558L7nyUFlmeEdrYH+AWzElOrvx/85QAAAABJRU5ErkJggg=="/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 19.7 19.7" style="enable-background:new 0 0 19.7 19.7;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<path class="st0" d="M9.85,0c-3.51,0-7.03,0.63-8.3,1.88C0.49,2.92,0.13,4.75,0.02,5.91c0,0-0.02,0.11-0.02,0.17
+	C0,6.53,0.37,6.9,0.82,6.9c0.05,0,2.03-0.16,3.22-0.26c0.03,0,0.06-0.01,0.09-0.02c0.44-0.01,0.8-0.37,0.8-0.82l0-1.62
+	c0-0.5,0.41-0.9,0.91-0.9h8.03c0.5,0,0.91,0.4,0.91,0.9l0,1.62c0,0.45,0.36,0.81,0.8,0.82c0.03,0.01,0.06,0.01,0.09,0.02
+	c1.19,0.1,3.16,0.26,3.22,0.26c0.45,0,0.82-0.37,0.82-0.82c0-0.05-0.02-0.17-0.02-0.17c-0.12-1.16-0.47-3-1.53-4.04
+	C16.87,0.63,13.36,0,9.85,0z M9.85,10.67c-0.91,0-1.64,0.73-1.64,1.64s0.73,1.64,1.64,1.64c0.91,0,1.64-0.73,1.64-1.64
+	C11.49,11.4,10.75,10.67,9.85,10.67z M8.62,6.97V5.95c0-0.57-0.46-1.03-1.03-1.03S6.57,5.38,6.57,5.95v1.02l-5.54,5.91
+	c-0.38,0.38-0.62,0.89-0.62,1.47V16c0,0.91,0.73,1.64,1.64,1.64h0.41v1.02c0,0.57,0.46,1.03,1.03,1.03c0.57,0,1.02-0.46,1.02-1.03
+	v-1.02h10.67v1.02c0,0.57,0.46,1.03,1.02,1.03c0.57,0,1.03-0.46,1.03-1.03v-1.02h0.41c0.9,0,1.64-0.73,1.64-1.64v-1.65
+	c0-0.58-0.24-1.09-0.62-1.47l-5.54-5.91V5.95c0-0.57-0.46-1.03-1.02-1.03c-0.57,0-1.03,0.46-1.03,1.03v1.02H8.62z M9.85,9.03
+	c1.81,0,3.28,1.47,3.28,3.28c0,1.81-1.47,3.28-3.28,3.28c-1.81,0-3.28-1.47-3.28-3.28C6.57,10.5,8.03,9.03,9.85,9.03z"/>
 </svg>

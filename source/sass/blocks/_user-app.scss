@@ -5,8 +5,14 @@
   padding-bottom: 47px;
 }
 
+.user-app .container {
+  border: 2px solid $light2;
+  padding-right: 60px;
+}
+
 .user-app__item {
   margin-bottom: 45px;
+  padding-left: 60px;
 
   &:last-of-type {
     margin-bottom: 0;
@@ -35,6 +41,7 @@
   .user-app {
     order: 2;
     background-color: transparent;
+    padding-bottom: 26px;
 
     .container {
       padding-bottom: 57px;
@@ -46,6 +53,33 @@
   }
 
   .user-app__label {
-    padding-left: 56px;
+    padding-left: 58px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .user-app {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 26px;
+
+    .container {
+      width: 435px;
+      padding-left: 30px;
+    }
+  }
+
+  .user-app__item {
+    margin-bottom: 45px;
+    padding-left: 44px;
+  }
+
+  .user-app__title {
+    padding-right: 25px;
+    padding-left: 25px;
+    width: 368px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
   }
 }

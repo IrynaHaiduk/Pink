@@ -55,17 +55,37 @@
     flex-wrap: wrap;
   }
 
+  .user-achievements .container {
+    padding-bottom: 60px;
+  }
+
   .user-achievements__item {
-    margin-right: 53px;
+    width: calc(100% / 3);
 
-    &:nth-of-type(3n) {
-      margin-right: 0;
+    &:nth-of-type(1) {
+      order: 1;
     }
-    width: 260px;
 
-    &:last-of-type,
-    &:nth-last-of-type(2),
-    &:nth-last-of-type(3) {
+    &:nth-of-type(2) {
+      order: 4;
+      margin-bottom: 0;
+    }
+
+    &:nth-of-type(3) {
+      order: 2;
+    }
+
+    &:nth-of-type(4) {
+      order: 5;
+      margin-bottom: 0;
+    }
+
+    &:nth-of-type(5) {
+      order: 3;
+    }
+
+    &:nth-of-type(6) {
+      order: 6;
       margin-bottom: 0;
     }
   }

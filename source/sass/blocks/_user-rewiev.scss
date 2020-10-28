@@ -36,3 +36,17 @@
     height: 192px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .user-rewiev__title {
+    margin-bottom: 27px;
+  }
+
+  .user-rewiev__input {
+    height: 128px;
+  }
+
+  .user-rewiev .container {
+    padding-bottom: 40px;
+  }
+}

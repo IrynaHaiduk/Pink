@@ -53,16 +53,16 @@
     padding-right: 60px;
     margin-bottom: 17px;
     background-repeat: no-repeat, no-repeat;
-    background-position: 455px center, center;
+    background-position: 455px center, right;
 
     &--phone {
-      background-image: url("../img/phone.png"), linear-gradient(to right, $white 434px, $light2 60px);
-      background-size: 20px 20px, cover;
+      background-image: url("../img/phone.png"), url("../img/input-bg.png");
+      background-size: 20px 20px, 60px 60px;
     }
 
     &--mail {
-      background-image: url("../img/mail.png"), linear-gradient(to right, $white 434px, $light2 60px);
-      background-size: 18px 13px, cover;
+      background-image: url("../img/mail.png"), url("../img/input-bg.png");
+      background-size: 18px 13px, 60px 60px;
     }
   }
 
@@ -96,13 +96,6 @@
   }
 
   .user-contacts__input {
-    background-position: 334px center, center;
-    &--phone {
-      background-image: url("../img/phone.png"), linear-gradient(to right, $white 313px, $light2 60px);
-    }
-
-    &--mail {
-      background-image: url("../img/mail.png"), linear-gradient(to right, $white 313px, $light2 60px);
-    }
+    background-position: 334px center, right;
   }
 }

@@ -1,0 +1,26 @@
+.features-description {
+  margin-bottom: 41px;
+}
+
+.features-description__item {
+  margin-bottom: 31px;
+  text-align: center;
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.features-description__title {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: $black;
+  margin-bottom: 12px;
+}
+
+.features-description__text {
+  font-size: 14px;
+  font-weight: 400;
+  color: $grey-blue;
+  line-height: 24px;
+}

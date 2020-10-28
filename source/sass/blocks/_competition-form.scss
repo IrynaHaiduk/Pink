@@ -93,6 +93,10 @@
     position: relative;
     top: -2px;
   }
+
+  span {
+    display: none;
+  }
 }
 
 .competition-form__submit {
@@ -109,6 +113,7 @@
     border: 2px solid $light2;
     padding-left: 60px;
     padding-right: 60px;
+    // width: 940px;
   }
 
   .competition-form__title {
@@ -145,5 +150,19 @@
     justify-content: center;
     align-items: flex-end;
     flex-wrap: wrap;
+  }
+  .competition-form__wrapper {
+    width: 940px;
+    margin: 0 auto;
+  }
+
+  .competition-form__note {
+    span {
+      display: inline;
+    }
+  }
+
+  .competition-form__submit {
+    margin-bottom: 33px;
   }
 }

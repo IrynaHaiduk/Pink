@@ -5,14 +5,8 @@
   padding-bottom: 47px;
 }
 
-.user-app .container {
-  border: 2px solid $light2;
-  padding-right: 60px;
-}
-
 .user-app__item {
   margin-bottom: 45px;
-  padding-left: 60px;
 
   &:last-of-type {
     margin-bottom: 0;
@@ -45,7 +39,13 @@
 
     .container {
       padding-bottom: 57px;
+      border: 2px solid $light2;
+      padding-right: 60px;
     }
+  }
+
+  .user-app__item {
+    padding-left: 60px;
   }
 
   .user-app__title {

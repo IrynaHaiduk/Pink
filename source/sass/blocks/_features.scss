@@ -3,9 +3,26 @@
 }
 
 .features__wrapper {
-  background-color: $light4;
   padding-top: 81px;
-  background-image: linear-gradient(174deg, #ffffff 33px, $light4 33px);
+  overflow: hidden;
+  position: relative;
+
+  &::before {
+    content: "";
+    width: 120%;
+    height: 181px;
+    position: absolute;
+    top: 0;
+    background-color: #f2f2f2;
+    transform: rotate(-5deg);
+    transform-origin: right;
+    margin-left: -10%;
+  }
+}
+
+.feature__box {
+  background-color: #f2f2f2;
+  position: relative;
 }
 
 .features__holder {
@@ -33,6 +50,10 @@
 @media (min-width: $tablet-width) {
   .features {
     padding-top: 49px;
+  }
+
+  .features__holder {
+    flex-direction: row;
   }
 
   .features__title {

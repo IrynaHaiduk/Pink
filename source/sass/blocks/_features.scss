@@ -52,8 +52,14 @@
     padding-top: 49px;
   }
 
+  .features__wrapper {
+    padding-top: 19px;
+  }
+
   .features__holder {
     flex-direction: row;
+    justify-content: space-between;
+    //align-items: flex-end;
   }
 
   .features__title {

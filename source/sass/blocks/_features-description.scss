@@ -24,3 +24,21 @@
   color: $grey-blue;
   line-height: 24px;
 }
+
+@media (min-width: $tablet-width) {
+  .features-description {
+    width: 310px;
+    margin-bottom: 0;
+    margin-top: 27px;
+    // margin-bottom: 49px;
+  }
+
+  .features-description__item {
+    //margin-bottom: 31px;
+    text-align: left;
+    margin-bottom: 35px;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+}

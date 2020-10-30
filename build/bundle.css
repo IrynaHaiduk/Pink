@@ -581,6 +581,9 @@ li {
   padding-bottom: 31px;
   margin-top: -69px;
   min-height: 240px; }
+  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
+    .promo {
+      background-image: url(/build/img/promo-bg-mb@2x.png); } }
   .promo--index {
     padding-top: 91px; }
 
@@ -608,7 +611,12 @@ li {
     background-size: 100% 726px;
     padding-top: 179px;
     position: relative;
-    z-index: 1; }
+    z-index: 1; } }
+  @media (min-width: 660px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 660px) and (min-resolution: 1.5dppx) {
+    .promo {
+      background-image: url(/build/img/promo-bg-tablet@2x.png); } }
+
+@media (min-width: 660px) {
     .promo--index {
       min-height: 729px;
       padding-top: 203px; }
@@ -638,7 +646,12 @@ li {
   .promo {
     background-image: url(/build/img/promo-bg-desktop.png);
     background-size: 100% 853px;
-    min-height: 394px; }
+    min-height: 394px; } }
+  @media (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 1200px) and (min-resolution: 1.5dppx) {
+    .promo {
+      background-image: url(/build/img/promo-bg-desktop@2x.png); } }
+
+@media (min-width: 1200px) {
     .promo--index {
       min-height: 853px; }
   .promo__app img {
@@ -1421,8 +1434,11 @@ li {
 @media (min-width: 660px) {
   .features {
     padding-top: 49px; }
+  .features__wrapper {
+    padding-top: 19px; }
   .features__holder {
-    flex-direction: row; }
+    flex-direction: row;
+    justify-content: space-between; }
   .features__title {
     font-size: 40px;
     line-height: 1.2;
@@ -1472,9 +1488,33 @@ li {
   color: #283645;
   line-height: 24px; }
 
+@media (min-width: 660px) {
+  .features-description {
+    width: 310px;
+    margin-bottom: 0;
+    margin-top: 27px; }
+  .features-description__item {
+    text-align: left;
+    margin-bottom: 35px; }
+    .features-description__item:last-of-type {
+      margin-bottom: 0; } }
+
 .features-images__item:not(:last-of-type) {
   display: none; }
 
 .features-images__item:last-of-type {
   margin-bottom: -43px; }
+
+.features-images__img {
+  width: 157px;
+  height: 320px; }
+
+@media (min-width: 660px) {
+  .features-images {
+    width: 268px; }
+  .features-images__img {
+    width: 268px;
+    height: 547px; }
+  .features-images__item:last-of-type {
+    margin-bottom: -67px; } }
 

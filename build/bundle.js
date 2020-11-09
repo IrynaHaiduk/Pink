@@ -457,7 +457,7 @@ eval("var logLevel = \"info\";\n\nfunction dummy() {}\n\nfunction shouldLog(leve
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var map = {\n\t\"./android-logo.png\": \"./source/img/android-logo.png\",\n\t\"./android-logo@2x.png\": \"./source/img/android-logo@2x.png\",\n\t\"./apple-logo.png\": \"./source/img/apple-logo.png\",\n\t\"./apple-logo@2x.png\": \"./source/img/apple-logo@2x.png\",\n\t\"./fb.svg\": \"./source/img/fb.svg\",\n\t\"./features-3-mb.png\": \"./source/img/features-3-mb.png\",\n\t\"./features-3-mb@2x.png\": \"./source/img/features-3-mb@2x.png\",\n\t\"./features-3-tablet.png\": \"./source/img/features-3-tablet.png\",\n\t\"./features-3-tablet@2x.png\": \"./source/img/features-3-tablet@2x.png\",\n\t\"./features-bg.png\": \"./source/img/features-bg.png\",\n\t\"./input-bg.png\": \"./source/img/input-bg.png\",\n\t\"./logo-academy.svg\": \"./source/img/logo-academy.svg\",\n\t\"./logo-all.svg\": \"./source/img/logo-all.svg\",\n\t\"./logo-desk-foot.svg\": \"./source/img/logo-desk-foot.svg\",\n\t\"./logo-desktop.svg\": \"./source/img/logo-desktop.svg\",\n\t\"./logo-mb-foot.svg\": \"./source/img/logo-mb-foot.svg\",\n\t\"./logo-mb.svg\": \"./source/img/logo-mb.svg\",\n\t\"./logo-tablet.svg\": \"./source/img/logo-tablet.svg\",\n\t\"./mail.png\": \"./source/img/mail.png\",\n\t\"./mail.svg\": \"./source/img/mail.svg\",\n\t\"./microsoft-logo.png\": \"./source/img/microsoft-logo.png\",\n\t\"./microsoft-logo@2x.png\": \"./source/img/microsoft-logo@2x.png\",\n\t\"./phone.png\": \"./source/img/phone.png\",\n\t\"./phone.svg\": \"./source/img/phone.svg\",\n\t\"./promo-app-desktop.png\": \"./source/img/promo-app-desktop.png\",\n\t\"./promo-app-desktop@2x.png\": \"./source/img/promo-app-desktop@2x.png\",\n\t\"./promo-app-mb.png\": \"./source/img/promo-app-mb.png\",\n\t\"./promo-app-mb@2x.png\": \"./source/img/promo-app-mb@2x.png\",\n\t\"./promo-app-tablet.png\": \"./source/img/promo-app-tablet.png\",\n\t\"./promo-app-tablet@2x.png\": \"./source/img/promo-app-tablet@2x.png\",\n\t\"./promo-bg-desktop.png\": \"./source/img/promo-bg-desktop.png\",\n\t\"./promo-bg-desktop@2x.png\": \"./source/img/promo-bg-desktop@2x.png\",\n\t\"./promo-bg-mb.png\": \"./source/img/promo-bg-mb.png\",\n\t\"./promo-bg-mb@2x.png\": \"./source/img/promo-bg-mb@2x.png\",\n\t\"./promo-bg-tablet.png\": \"./source/img/promo-bg-tablet.png\",\n\t\"./promo-bg-tablet@2x.png\": \"./source/img/promo-bg-tablet@2x.png\",\n\t\"./twitter.svg\": \"./source/img/twitter.svg\",\n\t\"./youtube.svg\": \"./source/img/youtube.svg\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./source/img sync recursive \\\\.(jpe?g|png|gif|svg|webp|webmanifest|ico|xml)$\";\n\n//# sourceURL=webpack:///./source/img_sync_\\.(jpe?");
+eval("var map = {\n\t\"./android-logo.png\": \"./source/img/android-logo.png\",\n\t\"./android-logo@2x.png\": \"./source/img/android-logo@2x.png\",\n\t\"./apple-logo.png\": \"./source/img/apple-logo.png\",\n\t\"./apple-logo@2x.png\": \"./source/img/apple-logo@2x.png\",\n\t\"./fb.svg\": \"./source/img/fb.svg\",\n\t\"./features-1-desktop.png\": \"./source/img/features-1-desktop.png\",\n\t\"./features-1-desktop@2x.png\": \"./source/img/features-1-desktop@2x.png\",\n\t\"./features-2-desktop.png\": \"./source/img/features-2-desktop.png\",\n\t\"./features-2-desktop@2x.png\": \"./source/img/features-2-desktop@2x.png\",\n\t\"./features-3-desktop.png\": \"./source/img/features-3-desktop.png\",\n\t\"./features-3-desktop@2x.png\": \"./source/img/features-3-desktop@2x.png\",\n\t\"./features-3-mb.png\": \"./source/img/features-3-mb.png\",\n\t\"./features-3-mb@2x.png\": \"./source/img/features-3-mb@2x.png\",\n\t\"./features-3-tablet.png\": \"./source/img/features-3-tablet.png\",\n\t\"./features-3-tablet@2x.png\": \"./source/img/features-3-tablet@2x.png\",\n\t\"./features-bg.png\": \"./source/img/features-bg.png\",\n\t\"./features-shadow.png\": \"./source/img/features-shadow.png\",\n\t\"./input-bg.png\": \"./source/img/input-bg.png\",\n\t\"./logo-academy.svg\": \"./source/img/logo-academy.svg\",\n\t\"./logo-all.svg\": \"./source/img/logo-all.svg\",\n\t\"./logo-desk-foot.svg\": \"./source/img/logo-desk-foot.svg\",\n\t\"./logo-desktop.svg\": \"./source/img/logo-desktop.svg\",\n\t\"./logo-mb-foot.svg\": \"./source/img/logo-mb-foot.svg\",\n\t\"./logo-mb.svg\": \"./source/img/logo-mb.svg\",\n\t\"./logo-tablet.svg\": \"./source/img/logo-tablet.svg\",\n\t\"./mail.png\": \"./source/img/mail.png\",\n\t\"./mail.svg\": \"./source/img/mail.svg\",\n\t\"./microsoft-logo.png\": \"./source/img/microsoft-logo.png\",\n\t\"./microsoft-logo@2x.png\": \"./source/img/microsoft-logo@2x.png\",\n\t\"./phone.png\": \"./source/img/phone.png\",\n\t\"./phone.svg\": \"./source/img/phone.svg\",\n\t\"./promo-app-desktop.png\": \"./source/img/promo-app-desktop.png\",\n\t\"./promo-app-desktop@2x.png\": \"./source/img/promo-app-desktop@2x.png\",\n\t\"./promo-app-mb.png\": \"./source/img/promo-app-mb.png\",\n\t\"./promo-app-mb@2x.png\": \"./source/img/promo-app-mb@2x.png\",\n\t\"./promo-app-tablet.png\": \"./source/img/promo-app-tablet.png\",\n\t\"./promo-app-tablet@2x.png\": \"./source/img/promo-app-tablet@2x.png\",\n\t\"./promo-bg-desktop.png\": \"./source/img/promo-bg-desktop.png\",\n\t\"./promo-bg-desktop@2x.png\": \"./source/img/promo-bg-desktop@2x.png\",\n\t\"./promo-bg-mb.png\": \"./source/img/promo-bg-mb.png\",\n\t\"./promo-bg-mb@2x.png\": \"./source/img/promo-bg-mb@2x.png\",\n\t\"./promo-bg-tablet.png\": \"./source/img/promo-bg-tablet.png\",\n\t\"./promo-bg-tablet@2x.png\": \"./source/img/promo-bg-tablet@2x.png\",\n\t\"./research-desktop.png\": \"./source/img/research-desktop.png\",\n\t\"./research-desktop@2x.png\": \"./source/img/research-desktop@2x.png\",\n\t\"./research-tablet.png\": \"./source/img/research-tablet.png\",\n\t\"./research-tablet@2x.png\": \"./source/img/research-tablet@2x.png\",\n\t\"./twitter.svg\": \"./source/img/twitter.svg\",\n\t\"./youtube.svg\": \"./source/img/youtube.svg\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./source/img sync recursive \\\\.(jpe?g|png|gif|svg|webp|webmanifest|ico|xml)$\";\n\n//# sourceURL=webpack:///./source/img_sync_\\.(jpe?");
 
 /***/ }),
 
@@ -516,6 +516,72 @@ eval("module.exports = __webpack_require__.p + \"img/fb.svg\";\n\n//# sourceURL=
 
 /***/ }),
 
+/***/ "./source/img/features-1-desktop.png":
+/*!*******************************************!*\
+  !*** ./source/img/features-1-desktop.png ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/features-1-desktop.png\";\n\n//# sourceURL=webpack:///./source/img/features-1-desktop.png?");
+
+/***/ }),
+
+/***/ "./source/img/features-1-desktop@2x.png":
+/*!**********************************************!*\
+  !*** ./source/img/features-1-desktop@2x.png ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/features-1-desktop@2x.png\";\n\n//# sourceURL=webpack:///./source/img/features-1-desktop@2x.png?");
+
+/***/ }),
+
+/***/ "./source/img/features-2-desktop.png":
+/*!*******************************************!*\
+  !*** ./source/img/features-2-desktop.png ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/features-2-desktop.png\";\n\n//# sourceURL=webpack:///./source/img/features-2-desktop.png?");
+
+/***/ }),
+
+/***/ "./source/img/features-2-desktop@2x.png":
+/*!**********************************************!*\
+  !*** ./source/img/features-2-desktop@2x.png ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/features-2-desktop@2x.png\";\n\n//# sourceURL=webpack:///./source/img/features-2-desktop@2x.png?");
+
+/***/ }),
+
+/***/ "./source/img/features-3-desktop.png":
+/*!*******************************************!*\
+  !*** ./source/img/features-3-desktop.png ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/features-3-desktop.png\";\n\n//# sourceURL=webpack:///./source/img/features-3-desktop.png?");
+
+/***/ }),
+
+/***/ "./source/img/features-3-desktop@2x.png":
+/*!**********************************************!*\
+  !*** ./source/img/features-3-desktop@2x.png ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/features-3-desktop@2x.png\";\n\n//# sourceURL=webpack:///./source/img/features-3-desktop@2x.png?");
+
+/***/ }),
+
 /***/ "./source/img/features-3-mb.png":
 /*!**************************************!*\
   !*** ./source/img/features-3-mb.png ***!
@@ -568,6 +634,17 @@ eval("module.exports = __webpack_require__.p + \"img/features-3-tablet@2x.png\";
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("module.exports = __webpack_require__.p + \"img/features-bg.png\";\n\n//# sourceURL=webpack:///./source/img/features-bg.png?");
+
+/***/ }),
+
+/***/ "./source/img/features-shadow.png":
+/*!****************************************!*\
+  !*** ./source/img/features-shadow.png ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/features-shadow.png\";\n\n//# sourceURL=webpack:///./source/img/features-shadow.png?");
 
 /***/ }),
 
@@ -854,6 +931,50 @@ eval("module.exports = __webpack_require__.p + \"img/promo-bg-tablet.png\";\n\n/
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("module.exports = __webpack_require__.p + \"img/promo-bg-tablet@2x.png\";\n\n//# sourceURL=webpack:///./source/img/promo-bg-tablet@2x.png?");
+
+/***/ }),
+
+/***/ "./source/img/research-desktop.png":
+/*!*****************************************!*\
+  !*** ./source/img/research-desktop.png ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/research-desktop.png\";\n\n//# sourceURL=webpack:///./source/img/research-desktop.png?");
+
+/***/ }),
+
+/***/ "./source/img/research-desktop@2x.png":
+/*!********************************************!*\
+  !*** ./source/img/research-desktop@2x.png ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/research-desktop@2x.png\";\n\n//# sourceURL=webpack:///./source/img/research-desktop@2x.png?");
+
+/***/ }),
+
+/***/ "./source/img/research-tablet.png":
+/*!****************************************!*\
+  !*** ./source/img/research-tablet.png ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/research-tablet.png\";\n\n//# sourceURL=webpack:///./source/img/research-tablet.png?");
+
+/***/ }),
+
+/***/ "./source/img/research-tablet@2x.png":
+/*!*******************************************!*\
+  !*** ./source/img/research-tablet@2x.png ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/research-tablet@2x.png\";\n\n//# sourceURL=webpack:///./source/img/research-tablet@2x.png?");
 
 /***/ }),
 

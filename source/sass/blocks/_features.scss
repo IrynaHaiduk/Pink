@@ -10,10 +10,10 @@
   &::before {
     content: "";
     width: 120%;
-    height: 181px;
+    height: 120%;
     position: absolute;
     top: 0;
-    background-color: #f2f2f2;
+    background-color: $light4;
     transform: rotate(-5deg);
     transform-origin: right;
     margin-left: -10%;
@@ -21,7 +21,6 @@
 }
 
 .feature__box {
-  background-color: #f2f2f2;
   position: relative;
 }
 
@@ -54,12 +53,16 @@
 
   .features__wrapper {
     padding-top: 19px;
+
+    &::before {
+      top: 12px;
+      transform: rotate(-4deg);
+    }
   }
 
   .features__holder {
     flex-direction: row;
     justify-content: space-between;
-    //align-items: flex-end;
   }
 
   .features__title {
@@ -81,6 +84,19 @@
 @media (min-width: $desktop-width) {
   .features {
     padding-top: 67px;
+  }
+
+  .features__wrapper {
+    padding-top: 44px;
+
+    &::before {
+      top: 41px;
+      transform: rotate(-4deg);
+    }
+  }
+
+  .features__holder {
+    flex-direction: column;
   }
 
   .features__title {

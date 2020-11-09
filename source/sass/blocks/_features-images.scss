@@ -25,3 +25,34 @@
     margin-bottom: -67px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .features-images {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    max-height: 300px;
+  }
+
+  .features-images__item {
+    width: calc(100% / 3);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -67px;
+  }
+
+  .features-images__item:not(:last-of-type) {
+    display: flex;
+  }
+
+  .features-images__item:last-of-type {
+    margin-bottom: -82px;
+  }
+
+  .features-images__img {
+    width: 186px;
+    height: 382px;
+  }
+}

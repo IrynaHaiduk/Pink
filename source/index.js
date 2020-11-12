@@ -1,4 +1,5 @@
-import  './sass/style.scss';
+import './sass/style.scss';
+import $ from 'jquery';
 
 function importAll(r) {
   r.keys().forEach(r);

@@ -4,6 +4,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const SpriteLoaderPlugin = require('svg-sprite-loader/plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const ImageminWebpWebpackPlugin = require("imagemin-webp-webpack-plugin");
+const webpack = require("webpack");
 
 
 
@@ -97,6 +98,13 @@ const config = {
     }),
     new VueLoaderPlugin(),
     new ImageminWebpWebpackPlugin(),
+    new webpack.ProvidePlugin({
+      '$': 'jquery',
+      jquery: 'jquery',
+      jQuery: 'jquery',
+      'window.jquery': 'jquery',
+      'window.jQuery': 'jquery',
+    })
   ]
 };
 

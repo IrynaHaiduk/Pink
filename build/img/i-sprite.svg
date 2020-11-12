@@ -1,7 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><style>
     .sprite-symbol-usage {display: none;}
     .sprite-symbol-usage:target {display: inline;}
-  </style><symbol viewBox="0 0 8.67 18.94" id="fb">
+  </style><symbol viewBox="0 0 21.52 41.37" id="arrow">
+	<style type="text/css">
+		#arrow .st0{fill:#1a150f;}
+	</style>
+	<path class="st0" d="M2.02,20.68L21.28,1.43C21.6,1.1 21.6,0.57 21.28,0.24C20.95,-0.08 20.42,-0.08 20.09,0.24L0.24,20.09C-0.08,20.42 -0.08,20.95 0.24,21.28L20.09,41.12C20.25,41.29 20.47,41.37 20.68,41.37C20.9,41.37 21.11,41.29 21.28,41.12C21.6,40.79 21.6,40.26 21.28,39.93Z" />
+</symbol><symbol viewBox="0 0 8.67 18.94" id="fb">
 <path d="M6.27,3.36c0.8,0,1.6,0,2.4,0c0-1.12,0-2.24,0-3.36C7.71,0,6.75,0,5.8,0C2.66,0.18,1.54,2.39,1.95,6.12H0v3.52h1.96
 	c0,3.1,0,6.21,0,9.31c1.28,0,2.56,0,3.84,0c0-3.1,0-6.21,0-9.31h2.86V6.12H5.79C5.77,5.07,5.75,3.71,6.27,3.36z" />
 </symbol><symbol viewBox="0 0 154.38 195.33" id="logo-academy"><defs><style>#logo-academy .cls-1{stroke:#231f20;stroke-miterlimit:10;}</style></defs><title>logo-academy</title><path class="cls-1" d="M78,.59,77.19.5.5,8.54V149.11l76.69,45.63,76.69-45.63V8.54Zm65.85,142.82L77.19,183.07,10.53,143.41V85.79L76.91,125.3l.11,7.16-45.54-27.1-.06,7,45.71,27.47.11,7.35L31.54,120l-.06,7,45.71,27.47,46.15-27.61v-7l0,0V97.1l20.56-12.28Zm0-66.06L125.56,88.09l-8.42,5L77,69.17l-.06,7,34.31,20.41-.3.18-.74.43L105.33,100,77,83.16l-.06,7,22.36,13.3L94,106.94l-.12.07L77,97.06l-.06,7L88,110.54l-11.29,6.78-66-39.26L76.82,38.31h0Zm0-7-67-39.51h0L10.53,70.31V17.58l66.66-7,66.66,7Z" /></symbol><symbol id="logo-all">
@@ -125,4 +130,4 @@
 </g>
 </symbol><symbol viewBox="0 0 14.64 13.96" id="youtube">
 <path d="M1.78,13.78C0.8,14.26,0,13.76,0,12.67V1.29C0,0.2,0.8-0.29,1.78,0.18l12.13,5.93c0.97,0.48,0.97,1.26,0,1.74L1.78,13.78z" />
-</symbol></defs><use id="fb-usage" xlink:href="#fb" class="sprite-symbol-usage" /><use id="logo-academy-usage" xlink:href="#logo-academy" class="sprite-symbol-usage" /><use id="logo-all-usage" xlink:href="#logo-all" class="sprite-symbol-usage" /><use id="logo-desk-foot-usage" xlink:href="#logo-desk-foot" class="sprite-symbol-usage" /><use id="logo-desktop-usage" xlink:href="#logo-desktop" class="sprite-symbol-usage" /><use id="logo-mb-usage" xlink:href="#logo-mb" class="sprite-symbol-usage" /><use id="logo-mb-foot-usage" xlink:href="#logo-mb-foot" class="sprite-symbol-usage" /><use id="logo-tablet-usage" xlink:href="#logo-tablet" class="sprite-symbol-usage" /><use id="mail-usage" xlink:href="#mail" class="sprite-symbol-usage" /><use id="phone-usage" xlink:href="#phone" class="sprite-symbol-usage" /><use id="twitter-usage" xlink:href="#twitter" class="sprite-symbol-usage" /><use id="youtube-usage" xlink:href="#youtube" class="sprite-symbol-usage" /></svg>
+</symbol></defs><use id="arrow-usage" xlink:href="#arrow" class="sprite-symbol-usage" /><use id="fb-usage" xlink:href="#fb" class="sprite-symbol-usage" /><use id="logo-academy-usage" xlink:href="#logo-academy" class="sprite-symbol-usage" /><use id="logo-all-usage" xlink:href="#logo-all" class="sprite-symbol-usage" /><use id="logo-desk-foot-usage" xlink:href="#logo-desk-foot" class="sprite-symbol-usage" /><use id="logo-desktop-usage" xlink:href="#logo-desktop" class="sprite-symbol-usage" /><use id="logo-mb-usage" xlink:href="#logo-mb" class="sprite-symbol-usage" /><use id="logo-mb-foot-usage" xlink:href="#logo-mb-foot" class="sprite-symbol-usage" /><use id="logo-tablet-usage" xlink:href="#logo-tablet" class="sprite-symbol-usage" /><use id="mail-usage" xlink:href="#mail" class="sprite-symbol-usage" /><use id="phone-usage" xlink:href="#phone" class="sprite-symbol-usage" /><use id="twitter-usage" xlink:href="#twitter" class="sprite-symbol-usage" /><use id="youtube-usage" xlink:href="#youtube" class="sprite-symbol-usage" /></svg>

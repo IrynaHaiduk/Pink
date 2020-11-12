@@ -1,3 +1,123 @@
+/* Slider */
+.slick-slider
+{
+    position: relative;
+
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
 /*stylelint-disable*/
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -1643,4 +1763,148 @@ li {
     font-weight: 400;
     text-decoration: underline;
     color: #d22856; } }
+
+.reviews {
+  padding-top: 43px;
+  padding-bottom: 93px; }
+
+.reviews__list {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative; }
+  .reviews__list .slick-arrow {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1; }
+  .reviews__list .slick-prev {
+    left: 0; }
+  .reviews__list .slick-next {
+    right: 0; }
+
+.reviews__arrow {
+  width: 22px;
+  height: 41px;
+  fill-opacity: 0.3;
+  fill: #283645; }
+  .reviews__arrow--right {
+    transform: rotate(180deg); }
+
+.slick-dots {
+  position: absolute;
+  bottom: -48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 76px;
+  padding: 0;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  list-style: none; }
+
+.slick-dots li {
+  position: relative;
+  cursor: pointer;
+  width: calc(100% / 3); }
+
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent; }
+
+.slick-dots li button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  opacity: 0.3;
+  background-color: #283645; }
+
+.slick-dots li.slick-active button:before {
+  background-color: #ffffff;
+  border: 3px solid #283645;
+  opacity: 1;
+  width: 12px;
+  height: 12px; }
+
+@media (min-width: 660px) {
+  .reviews {
+    padding-top: 46px;
+    padding-bottom: 93px; } }
+
+@media (min-width: 1200px) {
+  .reviews {
+    padding-top: 71px;
+    padding-bottom: 19px; }
+  .reviews__list {
+    padding-bottom: 25px; } }
+
+.review__title {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 13px; }
+
+.review__subtitle {
+  display: none; }
+
+.review__text {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #283645; }
+
+@media (min-width: 660px) {
+  .review__wrapper {
+    display: flex;
+    flex-direction: column-reverse; }
+  .review__title {
+    font-size: 20px;
+    margin-bottom: 2px; }
+  .review__subtitle {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #283645; }
+  .review__text {
+    font-size: 18px;
+    margin-bottom: 35px; } }
+
+@media (min-width: 1200px) {
+  .review {
+    padding-top: 113px;
+    position: relative; }
+    .review::before {
+      content: url(/build/img/review-quotes.png);
+      position: absolute;
+      width: 79px;
+      height: 63px;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%); }
+  .review__wrapper {
+    width: 687px;
+    margin: 0 auto; }
+  .review__title {
+    font-size: 24px;
+    margin-bottom: 2px; }
+  .review__subtitle {
+    font-size: 18px; }
+  .review__text {
+    font-size: 18px;
+    margin-bottom: 35px; } }
 

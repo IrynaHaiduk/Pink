@@ -1,0 +1,79 @@
+.review__title {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  color: $black;
+  margin-bottom: 13px;
+}
+
+.review__subtitle {
+  display: none;
+}
+
+.review__text {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: $grey-blue;
+}
+
+@media (min-width: $tablet-width) {
+  .review__wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .review__title {
+    font-size: 20px;
+    margin-bottom: 2px;
+  }
+
+  .review__subtitle {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: $grey-blue;
+  }
+
+  .review__text {
+    font-size: 18px;
+    margin-bottom: 35px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .review {
+    padding-top: 113px;
+    position: relative;
+
+    &::before {
+      content: url("../img/review-quotes.png");
+      position: absolute;
+      width: 79px;
+      height: 63px;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  .review__wrapper {
+    width: 687px;
+    margin: 0 auto;
+  }
+
+  .review__title {
+    font-size: 24px;
+    margin-bottom: 2px;
+  }
+
+  .review__subtitle {
+    font-size: 18px;
+  }
+
+  .review__text {
+    font-size: 18px;
+    margin-bottom: 35px;
+  }
+}

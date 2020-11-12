@@ -1,0 +1,108 @@
+.reviews {
+  padding-top: 43px;
+  padding-bottom: 93px;
+}
+
+.reviews__list {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+
+  .slick-arrow {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+
+  .slick-prev {
+    left: 0;
+  }
+
+  .slick-next {
+    right: 0;
+  }
+}
+
+.reviews__arrow {
+  width: 22px;
+  height: 41px;
+  fill-opacity: 0.3;
+  fill: $grey-blue;
+
+  &--right {
+    transform: rotate(180deg);
+  }
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: -48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 76px;
+  padding: 0;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  list-style: none;
+}
+
+.slick-dots li {
+  position: relative;
+  cursor: pointer;
+  width: calc(100% / 3);
+}
+
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+
+.slick-dots li button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  opacity: 0.3;
+  background-color: $grey-blue;
+}
+
+.slick-dots li.slick-active button:before {
+  background-color: $white;
+  border: 3px solid $grey-blue;
+  opacity: 1;
+  width: 12px;
+  height: 12px;
+}
+
+@media (min-width: $tablet-width) {
+  .reviews {
+    padding-top: 46px;
+    padding-bottom: 93px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .reviews {
+    padding-top: 71px;
+    padding-bottom: 19px;
+  }
+
+  .reviews__list {
+    padding-bottom: 25px;
+  }
+}

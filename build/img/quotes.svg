@@ -1,8 +1,0 @@
-export default {
-      id: "quotes-usage",
-      viewBox: "0 0 78.67 63.78",
-      url: __webpack_public_path__ + "C:\\Users\\Ирина\\Desktop\\Pink\\source\\img\\quotes.svg",
-      toString: function () {
-        return this.url;
-      }
-    }

@@ -1,0 +1,78 @@
+/* .tariffs {
+}
+
+.tariffs__wrapper {
+  width: 280px;
+  height: 63px;
+  border-collapse: collapse;
+}
+
+.tariffs__header,
+.tariffs__cell {
+  border: 2px solid $light2;
+}
+
+.tariffs__header--empty {
+  border: none;
+}
+ */
+.tariffs__item {
+  width: 280px;
+}
+
+.tariffs__header {
+  width: 280px;
+  height: 98px;
+  background-color: $grey-blue;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 21px;
+
+  &--standard {
+    border-right: 2px solid $white;
+    border-left: 2px solid $white;
+  }
+}
+
+.tariffs__title {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $white;
+  //margin-bottom: 2px;
+}
+
+.tariffs__price {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: $white;
+}
+
+.tariffs__cell {
+  width: 280px;
+  height: 63px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  padding-right: 24px;
+  padding-left: 24px;
+  border-bottom: 2px solid $light2;
+  border-right: 2px solid $light2;
+  border-left: 2px solid $light2;
+  /*
+  &--base {
+    border-left: 2px solid $light2;
+  } */
+}
+
+.tariffs__cell p {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $grey-blue;
+}
+
+//border: 2px solid #e5e5e5;

@@ -1,8 +1,0 @@
-export default {
-      id: "arrow-right-usage",
-      viewBox: "0 0 21.53 41.37",
-      url: __webpack_public_path__ + "C:\\Users\\Ирина\\Desktop\\Pink\\source\\img\\arrow-right.svg",
-      toString: function () {
-        return this.url;
-      }
-    }

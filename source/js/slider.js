@@ -36,3 +36,47 @@ $('.reviews__list').slick({
     }
   }]
 });
+
+$('.tariffs__wrapper').slick({
+  dots: false,
+  arrows: false,
+  responsive: [{
+    breakpoint: 660,
+    settings: {
+      dots: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      infinite: true,
+      arrows: false,
+      speed: 1000,
+      slidesToShow: 1,
+      adaptiveHeight: true,
+      /*    asNavFor: '.slider-nav' */
+    }
+  }]
+});
+
+/* $('.slider-nav').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  asNavFor: '.slider-for',
+  dots: true,
+  centerMode: true,
+  focusOnSelect: true
+}); */
+
+/* $('.slider-for').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: '.slider-nav'
+});
+$('.slider-nav').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  asNavFor: '.slider-for',
+  dots: true,
+  centerMode: true,
+  focusOnSelect: true
+}); */

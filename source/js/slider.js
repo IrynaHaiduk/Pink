@@ -1,7 +1,6 @@
 import "slick-carousel";
 
-
-
+//Слайдер для отзывов
 $('.reviews__list').slick({
   dots: false,
   infinite: true,
@@ -37,46 +36,52 @@ $('.reviews__list').slick({
   }]
 });
 
-$('.tariffs__wrapper').slick({
-  dots: false,
-  arrows: false,
-  responsive: [{
-    breakpoint: 660,
-    settings: {
-      dots: true,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      infinite: true,
-      arrows: false,
-      speed: 1000,
-      slidesToShow: 1,
-      adaptiveHeight: true,
-      /*    asNavFor: '.slider-nav' */
+let createSlider = true;
+var $before = $('.tariffs__wrapper').clone(true);
+var parent = $('.page-main__tariffs');
+
+
+function initSlick() {
+
+  if (document.documentElement.clientWidth >= 660) {
+    if (!createSlider) {
+      createSlider = true;
+
+      $('.tariffs__wrapper').slick('unslick');
+      parent.html('');
+      parent.append($before.clone(true));
+      parent.append($before.clone(true));
     }
-  }]
-});
+  } else if (createSlider) {
+    createSlider = false;
+    $('.tariffs__wrapper').slick({
+      dots: false,
+      arrows: false,
+      responsive: [{
+        breakpoint: 660,
+        settings: {
+          dots: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          arrows: false,
+          speed: 1000,
+          slidesToShow: 1,
+          adaptiveHeight: true,
+          centerMode: true,
+          variableWidth: true
+        }
+      }]
+    });
+  }
 
-/* $('.slider-nav').slick({
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  asNavFor: '.slider-for',
-  dots: true,
-  centerMode: true,
-  focusOnSelect: true
-}); */
+  //Слайдер для тарифов
 
-/* $('.slider-for').slick({
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: false,
-  fade: true,
-  asNavFor: '.slider-nav'
+}
+initSlick();
+//Отключаем слайдер для тарифов на планшетной версии (>= 660px)
+
+
+$(window).resize(function () {
+  initSlick();
 });
-$('.slider-nav').slick({
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  asNavFor: '.slider-for',
-  dots: true,
-  centerMode: true,
-  focusOnSelect: true
-}); */

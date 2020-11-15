@@ -1915,30 +1915,11 @@ li {
     font-size: 18px;
     margin-bottom: 35px; } }
 
-/* .tariffs {
-}
-
-.tariffs__wrapper {
-  width: 280px;
-  height: 63px;
-  border-collapse: collapse;
-}
-
-.tariffs__header,
-.tariffs__cell {
-  border: 2px solid $light2;
-}
-
-.tariffs__header--empty {
-  border: none;
-}
- */
 .tariffs__item {
   width: 280px !important;
   margin: 0; }
 
 .tariffs__header {
-  width: 280px;
   height: 98px;
   background-color: #283645;
   text-align: center;
@@ -1963,7 +1944,6 @@ li {
   color: #ffffff; }
 
 .tariffs__cell {
-  width: 280px;
   height: 63px;
   padding-top: 24px;
   padding-bottom: 25px;
@@ -2014,5 +1994,31 @@ li {
 
 @media (min-width: 660px) {
   .tariffs__wrapper {
-    display: flex; } }
+    display: flex;
+    align-items: flex-end;
+    width: 620px;
+    margin-left: auto;
+    margin-right: auto; }
+  .tariffs__item {
+    width: 156px !important; }
+  .tariffs__header {
+    height: 79px; }
+  .tariffs__cell {
+    height: 49px;
+    padding-top: 17px;
+    padding-bottom: 16px;
+    padding-left: 17px;
+    padding-right: 17px; }
+  .tariffs__cell p {
+    display: none; }
+  .tariffs__item--first .tariffs__header {
+    background-color: transparent; }
+  .tariffs__item--first .tariffs__cell {
+    border-left: 2px solid #e5e5e5;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #283645; }
+    .tariffs__item--first .tariffs__cell:nth-of-type(2) {
+      border-top: 2px solid #e5e5e5; } }
 

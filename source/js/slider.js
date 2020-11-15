@@ -37,9 +37,23 @@ $('.reviews__list').slick({
 });
 
 let createSlider = true;
-var $before = $('.tariffs__wrapper').clone(true);
-var parent = $('.page-main__tariffs');
+//var tariffsSlider = document.querySelector('.tariffs__wrapper');
+var tariffsSliderCloned = $('.tariffs__wrapper').clone(true);
+var tariffsSection = $('.page-main__tariffs');
+var tariffsItemMarkup = `<div class="tariffs__item tariffs__item--first">
+                         <div class="tariffs__header"></div>
+                         <div class="tariffs__cell">
+                           Розовый фильтр
+                         </div>
+                         <div class="tariffs__cell">
+                           Смайлики
+                         </div>
+                         <div class="tariffs__cell">
+                           Комментарии
+                         </div>
+                         </div>`;
 
+document.querySelector('.tariffs__wrapper').insertAdjacentHTML("afterbegin", tariffsItemMarkup);
 
 function initSlick() {
 
@@ -48,12 +62,16 @@ function initSlick() {
       createSlider = true;
 
       $('.tariffs__wrapper').slick('unslick');
-      parent.html('');
-      parent.append($before.clone(true));
-      parent.append($before.clone(true));
+      tariffsSection.html('');
+      tariffsSection.append(tariffsSliderCloned.clone(true));
+      document.querySelector('.tariffs__wrapper').insertAdjacentHTML("afterbegin", tariffsItemMarkup);
     }
   } else if (createSlider) {
     createSlider = false;
+    var firstItem = document.querySelector('.tariffs__item--first');
+    if (firstItem) {
+      firstItem.remove();
+    }
     $('.tariffs__wrapper').slick({
       dots: false,
       arrows: false,

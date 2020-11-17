@@ -1,0 +1,35 @@
+.skew-bg {
+  overflow: hidden;
+  position: relative;
+
+  &::before {
+    content: "";
+    width: 150%;
+    height: 120%;
+    position: absolute;
+    top: 0;
+    background-color: $light4;
+    transform: rotate(-5deg);
+    transform-origin: right;
+    margin-left: -10%;
+    z-index: -1;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .skew-bg {
+    &::before {
+      top: 12px;
+      transform: rotate(-4deg);
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .skew-bg {
+    &::before {
+      top: 41px;
+      transform: rotate(-4deg);
+    }
+  }
+}

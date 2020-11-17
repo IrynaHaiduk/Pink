@@ -4,20 +4,6 @@
 
 .features__wrapper {
   padding-top: 81px;
-  overflow: hidden;
-  position: relative;
-
-  &::before {
-    content: "";
-    width: 120%;
-    height: 120%;
-    position: absolute;
-    top: 0;
-    background-color: $light4;
-    transform: rotate(-5deg);
-    transform-origin: right;
-    margin-left: -10%;
-  }
 }
 
 .feature__box {
@@ -53,11 +39,6 @@
 
   .features__wrapper {
     padding-top: 19px;
-
-    &::before {
-      top: 12px;
-      transform: rotate(-4deg);
-    }
   }
 
   .features__holder {

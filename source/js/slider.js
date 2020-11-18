@@ -53,7 +53,11 @@ var tariffsItemMarkup = `<div class="tariffs__item tariffs__item--first">
                          </div>
                          </div>`;
 
-document.querySelector('.tariffs__wrapper').insertAdjacentHTML("afterbegin", tariffsItemMarkup);
+var tariffsWrapper = document.querySelector('.tariffs__wrapper');
+if (tariffsWrapper) {
+  tariffsWrapper.insertAdjacentHTML("afterbegin", tariffsItemMarkup);
+}
+
 
 function initSlick() {
 

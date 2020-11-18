@@ -2,7 +2,6 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
   width: 180px;
 }
 
@@ -26,6 +25,7 @@
   border-radius: 50%;
   border: 3px solid rgba($grey-blue, 0.1);
   transition: 0.4s ease;
+  background-color: $white;
 
   &:hover,
   &:focus {
@@ -39,4 +39,10 @@
 }
 
 @media (min-width: $tablet-width) {
+}
+
+@media (min-width: $desktop-width) {
+  .social__list {
+    margin-left: 10px;
+  }
 }

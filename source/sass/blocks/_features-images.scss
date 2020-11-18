@@ -41,6 +41,14 @@
     display: flex;
     justify-content: center;
     margin-bottom: -67px;
+    position: relative;
+
+    &::before {
+      content: url("../img/features-shadow.png");
+      position: absolute;
+      left: 0;
+      top: 293px;
+    }
   }
 
   .features-images__item:not(:last-of-type) {

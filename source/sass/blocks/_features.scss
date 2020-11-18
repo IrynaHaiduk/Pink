@@ -67,11 +67,11 @@
     padding-top: 67px;
   }
 
-  .features__wrapper {
+  .features__wrapper.skew-bg {
     padding-top: 44px;
 
     &::before {
-      top: 41px;
+      top: 16px;
       transform: rotate(-4deg);
     }
   }

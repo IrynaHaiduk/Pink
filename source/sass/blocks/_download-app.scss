@@ -63,3 +63,10 @@
     font-size: 18px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .download-app__button {
+    font-size: 21px;
+    margin-bottom: 68px;
+  }
+}

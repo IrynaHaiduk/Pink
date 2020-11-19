@@ -36,6 +36,8 @@ $('.reviews__list').slick({
   }]
 });
 
+//Слайдер для тарифов
+
 let createSlider = true;
 //var tariffsSlider = document.querySelector('.tariffs__wrapper');
 var tariffsSliderCloned = $('.tariffs__wrapper').clone(true);
@@ -68,7 +70,10 @@ function initSlick() {
       $('.tariffs__wrapper').slick('unslick');
       tariffsSection.html('');
       tariffsSection.append(tariffsSliderCloned.clone(true));
-      document.querySelector('.tariffs__wrapper').insertAdjacentHTML("afterbegin", tariffsItemMarkup);
+
+      if (tariffsWrapper) {
+        document.querySelector('.tariffs__wrapper').insertAdjacentHTML("afterbegin", tariffsItemMarkup);
+      }
     }
   } else if (createSlider) {
     createSlider = false;

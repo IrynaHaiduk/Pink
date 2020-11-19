@@ -11,6 +11,8 @@
 .contacts__wrapper {
   padding-top: 43px;
   background-color: white;
+  position: relative;
+  z-index: 2;
 }
 
 .contacts__heading {
@@ -22,7 +24,7 @@
 }
 
 .contacts__map {
-  margin-top: -405px;
+  margin-top: -155px;
 }
 
 @media (min-width: $tablet-width) {
@@ -47,7 +49,7 @@
   }
 
   .contacts__map {
-    margin-top: -319px;
+    margin-top: -220px;
   }
 }
 
@@ -66,8 +68,8 @@
     font-size: 50px;
     margin-bottom: 57px;
   }
-}
 
-.contacts__map {
-  margin-top: -273px;
+  .contacts__map {
+    margin-top: -273px;
+  }
 }

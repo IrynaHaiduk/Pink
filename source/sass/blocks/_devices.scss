@@ -13,12 +13,16 @@
     margin-right: 0;
     margin-top: 8px;
   }
-
 }
 
 @media (min-width: $tablet-width) {
   .devices {
     margin-bottom: 36px;
   }
+}
 
+@media (min-width: $desktop-width) {
+  .devices {
+    margin-bottom: 55px;
+  }
 }

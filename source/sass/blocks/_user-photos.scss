@@ -1,0 +1,41 @@
+.user-photos {
+  padding-top: 45px;
+}
+
+.user-photos__text {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: $grey-blue;
+  text-align: center;
+  width: 253px;
+  margin: 0 auto;
+  margin-bottom: 49px;
+}
+
+.user-photos__main-photo {
+  margin-bottom: 20px;
+}
+
+@media (min-width: $tablet-width) {
+  .user-photos {
+    padding-top: 89px;
+  }
+
+  .user-photos__text {
+    font-size: 18px;
+    width: 445px;
+    margin-bottom: 76px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .user-photos {
+    padding-top: 89px;
+  }
+
+  .user-photos__text {
+    width: 590px;
+    margin-bottom: 89px;
+  }
+}

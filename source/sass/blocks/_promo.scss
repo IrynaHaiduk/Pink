@@ -100,12 +100,18 @@
 
     &--index {
       min-height: 853px;
+      padding-top: 217px;
+    }
+
+    &--photos {
+      padding-top: 171px;
     }
   }
 
   .promo__app img {
     width: 1050px;
     height: 645px;
+    margin-left: 71px;
   }
 
   .promo__header {
@@ -117,6 +123,12 @@
     &--competition {
       margin: 0 auto;
       width: 747px;
+    }
+
+    &--index {
+      font-size: 50px;
+      width: 300px;
+      margin-bottom: 51px;
     }
   }
 }

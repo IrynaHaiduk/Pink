@@ -1,0 +1,100 @@
+.user-comment {
+  background-color: $light4;
+  padding-top: 17px;
+  padding-bottom: 20px;
+  padding-left: 17px;
+  padding-right: 12px;
+}
+
+.user-comment__name {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: $grey-blue;
+}
+
+.user-comment__time {
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.user-comment__text {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: $grey-blue;
+  margin-bottom: 10px;
+}
+
+.user-comment__wrapper {
+  display: flex;
+  //width: 121px;
+  //justify-content: space-between;
+  align-items: center;
+}
+
+.user-comment__likes {
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $pink;
+}
+
+.user-comment__heart {
+  width: 13px;
+  height: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  margin-right: 19px;
+
+  svg {
+    width: 13px;
+    height: 12px;
+    fill: none;
+    stroke: $pink;
+    stroke-width: 2px;
+    stroke-linejoin: round;
+    transition: 0.4s ease;
+  }
+
+  &:hover svg {
+    stroke-opacity: 0.7;
+  }
+
+  &:focus svg,
+  &:active svg {
+    fill: $pink;
+    stroke-opacity: 1;
+  }
+}
+
+/* /* Text styles for "Анна " */
+/*
+Text styles for "Анна "
+ */
+
+/* Text styles for "(" */
+/*
+ Text styles for "("
+  */
+//font-weight: 300;
+/* Text styles for "5 минут назад)'" */
+/*
+ Text styles for "5 минут назад)'"
+  */
+/*  font-size: 12px;
+ font-weight: 300;
+ text-transform: uppercase; */
+/* Text styles for "Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!" */
+/*
+ Text styles for "Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!"
+  */
+//font-weight: 400; */

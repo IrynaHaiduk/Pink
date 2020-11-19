@@ -2,6 +2,13 @@
   padding-top: 41px;
 }
 
+.features__wrapper.skew-bg {
+
+  &::before {
+    top: 0;
+  }
+}
+
 .features__wrapper {
   padding-top: 81px;
 }

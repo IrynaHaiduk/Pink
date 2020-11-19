@@ -1,0 +1,8 @@
+export default {
+      id: "like-usage",
+      viewBox: "0 0 12.54 11.99",
+      url: __webpack_public_path__ + "C:\\Users\\Ирина\\Desktop\\Pink\\source\\img\\like.svg",
+      toString: function () {
+        return this.url;
+      }
+    }

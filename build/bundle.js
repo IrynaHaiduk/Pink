@@ -479,7 +479,7 @@ eval("var logLevel = \"info\";\n\nfunction dummy() {}\n\nfunction shouldLog(leve
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var map = {\n\t\"./android-logo.png\": \"./source/img/android-logo.png\",\n\t\"./android-logo@2x.png\": \"./source/img/android-logo@2x.png\",\n\t\"./apple-logo.png\": \"./source/img/apple-logo.png\",\n\t\"./apple-logo@2x.png\": \"./source/img/apple-logo@2x.png\",\n\t\"./arrow.svg\": \"./source/img/arrow.svg\",\n\t\"./contacts-bg-desktop.png\": \"./source/img/contacts-bg-desktop.png\",\n\t\"./contacts-bg-mb.png\": \"./source/img/contacts-bg-mb.png\",\n\t\"./contacts-bg-tablet.png\": \"./source/img/contacts-bg-tablet.png\",\n\t\"./fb.svg\": \"./source/img/fb.svg\",\n\t\"./features-1-desktop.png\": \"./source/img/features-1-desktop.png\",\n\t\"./features-1-desktop@2x.png\": \"./source/img/features-1-desktop@2x.png\",\n\t\"./features-2-desktop.png\": \"./source/img/features-2-desktop.png\",\n\t\"./features-2-desktop@2x.png\": \"./source/img/features-2-desktop@2x.png\",\n\t\"./features-3-desktop.png\": \"./source/img/features-3-desktop.png\",\n\t\"./features-3-desktop@2x.png\": \"./source/img/features-3-desktop@2x.png\",\n\t\"./features-3-mb.png\": \"./source/img/features-3-mb.png\",\n\t\"./features-3-mb@2x.png\": \"./source/img/features-3-mb@2x.png\",\n\t\"./features-3-tablet.png\": \"./source/img/features-3-tablet.png\",\n\t\"./features-3-tablet@2x.png\": \"./source/img/features-3-tablet@2x.png\",\n\t\"./features-bg.png\": \"./source/img/features-bg.png\",\n\t\"./features-shadow.png\": \"./source/img/features-shadow.png\",\n\t\"./input-bg.png\": \"./source/img/input-bg.png\",\n\t\"./logo-academy.svg\": \"./source/img/logo-academy.svg\",\n\t\"./logo-all.svg\": \"./source/img/logo-all.svg\",\n\t\"./logo-desk-foot.svg\": \"./source/img/logo-desk-foot.svg\",\n\t\"./logo-desktop.svg\": \"./source/img/logo-desktop.svg\",\n\t\"./logo-mb-foot.svg\": \"./source/img/logo-mb-foot.svg\",\n\t\"./logo-mb.svg\": \"./source/img/logo-mb.svg\",\n\t\"./logo-tablet.svg\": \"./source/img/logo-tablet.svg\",\n\t\"./mail.png\": \"./source/img/mail.png\",\n\t\"./mail.svg\": \"./source/img/mail.svg\",\n\t\"./map-desktop.png\": \"./source/img/map-desktop.png\",\n\t\"./map-mb.png\": \"./source/img/map-mb.png\",\n\t\"./map-tablet.png\": \"./source/img/map-tablet.png\",\n\t\"./microsoft-logo.png\": \"./source/img/microsoft-logo.png\",\n\t\"./microsoft-logo@2x.png\": \"./source/img/microsoft-logo@2x.png\",\n\t\"./phone.png\": \"./source/img/phone.png\",\n\t\"./phone.svg\": \"./source/img/phone.svg\",\n\t\"./promo-app-desktop.png\": \"./source/img/promo-app-desktop.png\",\n\t\"./promo-app-desktop@2x.png\": \"./source/img/promo-app-desktop@2x.png\",\n\t\"./promo-app-mb.png\": \"./source/img/promo-app-mb.png\",\n\t\"./promo-app-mb@2x.png\": \"./source/img/promo-app-mb@2x.png\",\n\t\"./promo-app-tablet.png\": \"./source/img/promo-app-tablet.png\",\n\t\"./promo-app-tablet@2x.png\": \"./source/img/promo-app-tablet@2x.png\",\n\t\"./promo-bg-desktop.png\": \"./source/img/promo-bg-desktop.png\",\n\t\"./promo-bg-desktop@2x.png\": \"./source/img/promo-bg-desktop@2x.png\",\n\t\"./promo-bg-mb.png\": \"./source/img/promo-bg-mb.png\",\n\t\"./promo-bg-mb@2x.png\": \"./source/img/promo-bg-mb@2x.png\",\n\t\"./promo-bg-tablet.png\": \"./source/img/promo-bg-tablet.png\",\n\t\"./promo-bg-tablet@2x.png\": \"./source/img/promo-bg-tablet@2x.png\",\n\t\"./research-desktop.png\": \"./source/img/research-desktop.png\",\n\t\"./research-desktop@2x.png\": \"./source/img/research-desktop@2x.png\",\n\t\"./research-tablet.png\": \"./source/img/research-tablet.png\",\n\t\"./research-tablet@2x.png\": \"./source/img/research-tablet@2x.png\",\n\t\"./review-quotes.png\": \"./source/img/review-quotes.png\",\n\t\"./twitter.svg\": \"./source/img/twitter.svg\",\n\t\"./youtube.svg\": \"./source/img/youtube.svg\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./source/img sync recursive \\\\.(jpe?g|png|gif|svg|webp|webmanifest|ico|xml)$\";\n\n//# sourceURL=webpack:///./source/img_sync_\\.(jpe?");
+eval("var map = {\n\t\"./android-logo.png\": \"./source/img/android-logo.png\",\n\t\"./android-logo@2x.png\": \"./source/img/android-logo@2x.png\",\n\t\"./apple-logo.png\": \"./source/img/apple-logo.png\",\n\t\"./apple-logo@2x.png\": \"./source/img/apple-logo@2x.png\",\n\t\"./arrow.svg\": \"./source/img/arrow.svg\",\n\t\"./contacts-bg-desktop.png\": \"./source/img/contacts-bg-desktop.png\",\n\t\"./contacts-bg-mb.png\": \"./source/img/contacts-bg-mb.png\",\n\t\"./contacts-bg-tablet.png\": \"./source/img/contacts-bg-tablet.png\",\n\t\"./fb.svg\": \"./source/img/fb.svg\",\n\t\"./features-1-desktop.png\": \"./source/img/features-1-desktop.png\",\n\t\"./features-1-desktop@2x.png\": \"./source/img/features-1-desktop@2x.png\",\n\t\"./features-2-desktop.png\": \"./source/img/features-2-desktop.png\",\n\t\"./features-2-desktop@2x.png\": \"./source/img/features-2-desktop@2x.png\",\n\t\"./features-3-desktop.png\": \"./source/img/features-3-desktop.png\",\n\t\"./features-3-desktop@2x.png\": \"./source/img/features-3-desktop@2x.png\",\n\t\"./features-3-mb.png\": \"./source/img/features-3-mb.png\",\n\t\"./features-3-mb@2x.png\": \"./source/img/features-3-mb@2x.png\",\n\t\"./features-3-tablet.png\": \"./source/img/features-3-tablet.png\",\n\t\"./features-3-tablet@2x.png\": \"./source/img/features-3-tablet@2x.png\",\n\t\"./features-bg.png\": \"./source/img/features-bg.png\",\n\t\"./features-shadow.png\": \"./source/img/features-shadow.png\",\n\t\"./heart-icon.svg\": \"./source/img/heart-icon.svg\",\n\t\"./input-bg.png\": \"./source/img/input-bg.png\",\n\t\"./logo-academy.svg\": \"./source/img/logo-academy.svg\",\n\t\"./logo-all.svg\": \"./source/img/logo-all.svg\",\n\t\"./logo-desk-foot.svg\": \"./source/img/logo-desk-foot.svg\",\n\t\"./logo-desktop.svg\": \"./source/img/logo-desktop.svg\",\n\t\"./logo-mb-foot.svg\": \"./source/img/logo-mb-foot.svg\",\n\t\"./logo-mb.svg\": \"./source/img/logo-mb.svg\",\n\t\"./logo-tablet.svg\": \"./source/img/logo-tablet.svg\",\n\t\"./mail.png\": \"./source/img/mail.png\",\n\t\"./mail.svg\": \"./source/img/mail.svg\",\n\t\"./main-photo-desktop.jpg\": \"./source/img/main-photo-desktop.jpg\",\n\t\"./main-photo-desktop@2x.jpg\": \"./source/img/main-photo-desktop@2x.jpg\",\n\t\"./main-photo-mb.jpg\": \"./source/img/main-photo-mb.jpg\",\n\t\"./main-photo-mb@2x.jpg\": \"./source/img/main-photo-mb@2x.jpg\",\n\t\"./main-photo-tablet.jpg\": \"./source/img/main-photo-tablet.jpg\",\n\t\"./main-photo-tablet@2x.jpg\": \"./source/img/main-photo-tablet@2x.jpg\",\n\t\"./map-desktop.png\": \"./source/img/map-desktop.png\",\n\t\"./map-mb.png\": \"./source/img/map-mb.png\",\n\t\"./map-tablet.png\": \"./source/img/map-tablet.png\",\n\t\"./microsoft-logo.png\": \"./source/img/microsoft-logo.png\",\n\t\"./microsoft-logo@2x.png\": \"./source/img/microsoft-logo@2x.png\",\n\t\"./phone.png\": \"./source/img/phone.png\",\n\t\"./phone.svg\": \"./source/img/phone.svg\",\n\t\"./photo-example1-mb.jpg\": \"./source/img/photo-example1-mb.jpg\",\n\t\"./photo-example1-mb@2x.jpg\": \"./source/img/photo-example1-mb@2x.jpg\",\n\t\"./photo-example2-mb.jpg\": \"./source/img/photo-example2-mb.jpg\",\n\t\"./photo-example2-mb@2x.jpg\": \"./source/img/photo-example2-mb@2x.jpg\",\n\t\"./photo-example3-mb.jpg\": \"./source/img/photo-example3-mb.jpg\",\n\t\"./photo-example3-mb@2x.jpg\": \"./source/img/photo-example3-mb@2x.jpg\",\n\t\"./photo-example4-mb.jpg\": \"./source/img/photo-example4-mb.jpg\",\n\t\"./photo-example4-mb@2x.jpg\": \"./source/img/photo-example4-mb@2x.jpg\",\n\t\"./photo-example5-mb.jpg\": \"./source/img/photo-example5-mb.jpg\",\n\t\"./photo-example5-mb@2x.jpg\": \"./source/img/photo-example5-mb@2x.jpg\",\n\t\"./photo-example6-mb.jpg\": \"./source/img/photo-example6-mb.jpg\",\n\t\"./photo-example6-mb@2x.jpg\": \"./source/img/photo-example6-mb@2x.jpg\",\n\t\"./promo-app-desktop.png\": \"./source/img/promo-app-desktop.png\",\n\t\"./promo-app-desktop@2x.png\": \"./source/img/promo-app-desktop@2x.png\",\n\t\"./promo-app-mb.png\": \"./source/img/promo-app-mb.png\",\n\t\"./promo-app-mb@2x.png\": \"./source/img/promo-app-mb@2x.png\",\n\t\"./promo-app-tablet.png\": \"./source/img/promo-app-tablet.png\",\n\t\"./promo-app-tablet@2x.png\": \"./source/img/promo-app-tablet@2x.png\",\n\t\"./promo-bg-desktop.png\": \"./source/img/promo-bg-desktop.png\",\n\t\"./promo-bg-desktop@2x.png\": \"./source/img/promo-bg-desktop@2x.png\",\n\t\"./promo-bg-mb.png\": \"./source/img/promo-bg-mb.png\",\n\t\"./promo-bg-mb@2x.png\": \"./source/img/promo-bg-mb@2x.png\",\n\t\"./promo-bg-tablet.png\": \"./source/img/promo-bg-tablet.png\",\n\t\"./promo-bg-tablet@2x.png\": \"./source/img/promo-bg-tablet@2x.png\",\n\t\"./research-desktop.png\": \"./source/img/research-desktop.png\",\n\t\"./research-desktop@2x.png\": \"./source/img/research-desktop@2x.png\",\n\t\"./research-tablet.png\": \"./source/img/research-tablet.png\",\n\t\"./research-tablet@2x.png\": \"./source/img/research-tablet@2x.png\",\n\t\"./review-quotes.png\": \"./source/img/review-quotes.png\",\n\t\"./twitter.svg\": \"./source/img/twitter.svg\",\n\t\"./youtube.svg\": \"./source/img/youtube.svg\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./source/img sync recursive \\\\.(jpe?g|png|gif|svg|webp|webmanifest|ico|xml)$\";\n\n//# sourceURL=webpack:///./source/img_sync_\\.(jpe?");
 
 /***/ }),
 
@@ -714,6 +714,17 @@ eval("module.exports = __webpack_require__.p + \"img/features-shadow.png\";\n\n/
 
 /***/ }),
 
+/***/ "./source/img/heart-icon.svg":
+/*!***********************************!*\
+  !*** ./source/img/heart-icon.svg ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/heart-icon.svg\";\n\n//# sourceURL=webpack:///./source/img/heart-icon.svg?");
+
+/***/ }),
+
 /***/ "./source/img/input-bg.png":
 /*!*********************************!*\
   !*** ./source/img/input-bg.png ***!
@@ -824,6 +835,72 @@ eval("module.exports = __webpack_require__.p + \"img/mail.svg\";\n\n//# sourceUR
 
 /***/ }),
 
+/***/ "./source/img/main-photo-desktop.jpg":
+/*!*******************************************!*\
+  !*** ./source/img/main-photo-desktop.jpg ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/main-photo-desktop.jpg\";\n\n//# sourceURL=webpack:///./source/img/main-photo-desktop.jpg?");
+
+/***/ }),
+
+/***/ "./source/img/main-photo-desktop@2x.jpg":
+/*!**********************************************!*\
+  !*** ./source/img/main-photo-desktop@2x.jpg ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/main-photo-desktop@2x.jpg\";\n\n//# sourceURL=webpack:///./source/img/main-photo-desktop@2x.jpg?");
+
+/***/ }),
+
+/***/ "./source/img/main-photo-mb.jpg":
+/*!**************************************!*\
+  !*** ./source/img/main-photo-mb.jpg ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/main-photo-mb.jpg\";\n\n//# sourceURL=webpack:///./source/img/main-photo-mb.jpg?");
+
+/***/ }),
+
+/***/ "./source/img/main-photo-mb@2x.jpg":
+/*!*****************************************!*\
+  !*** ./source/img/main-photo-mb@2x.jpg ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/main-photo-mb@2x.jpg\";\n\n//# sourceURL=webpack:///./source/img/main-photo-mb@2x.jpg?");
+
+/***/ }),
+
+/***/ "./source/img/main-photo-tablet.jpg":
+/*!******************************************!*\
+  !*** ./source/img/main-photo-tablet.jpg ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/main-photo-tablet.jpg\";\n\n//# sourceURL=webpack:///./source/img/main-photo-tablet.jpg?");
+
+/***/ }),
+
+/***/ "./source/img/main-photo-tablet@2x.jpg":
+/*!*********************************************!*\
+  !*** ./source/img/main-photo-tablet@2x.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/main-photo-tablet@2x.jpg\";\n\n//# sourceURL=webpack:///./source/img/main-photo-tablet@2x.jpg?");
+
+/***/ }),
+
 /***/ "./source/img/map-desktop.png":
 /*!************************************!*\
   !*** ./source/img/map-desktop.png ***!
@@ -898,6 +975,138 @@ eval("module.exports = __webpack_require__.p + \"img/phone.png\";\n\n//# sourceU
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("module.exports = __webpack_require__.p + \"img/phone.svg\";\n\n//# sourceURL=webpack:///./source/img/phone.svg?");
+
+/***/ }),
+
+/***/ "./source/img/photo-example1-mb.jpg":
+/*!******************************************!*\
+  !*** ./source/img/photo-example1-mb.jpg ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/photo-example1-mb.jpg\";\n\n//# sourceURL=webpack:///./source/img/photo-example1-mb.jpg?");
+
+/***/ }),
+
+/***/ "./source/img/photo-example1-mb@2x.jpg":
+/*!*********************************************!*\
+  !*** ./source/img/photo-example1-mb@2x.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/photo-example1-mb@2x.jpg\";\n\n//# sourceURL=webpack:///./source/img/photo-example1-mb@2x.jpg?");
+
+/***/ }),
+
+/***/ "./source/img/photo-example2-mb.jpg":
+/*!******************************************!*\
+  !*** ./source/img/photo-example2-mb.jpg ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/photo-example2-mb.jpg\";\n\n//# sourceURL=webpack:///./source/img/photo-example2-mb.jpg?");
+
+/***/ }),
+
+/***/ "./source/img/photo-example2-mb@2x.jpg":
+/*!*********************************************!*\
+  !*** ./source/img/photo-example2-mb@2x.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/photo-example2-mb@2x.jpg\";\n\n//# sourceURL=webpack:///./source/img/photo-example2-mb@2x.jpg?");
+
+/***/ }),
+
+/***/ "./source/img/photo-example3-mb.jpg":
+/*!******************************************!*\
+  !*** ./source/img/photo-example3-mb.jpg ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/photo-example3-mb.jpg\";\n\n//# sourceURL=webpack:///./source/img/photo-example3-mb.jpg?");
+
+/***/ }),
+
+/***/ "./source/img/photo-example3-mb@2x.jpg":
+/*!*********************************************!*\
+  !*** ./source/img/photo-example3-mb@2x.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/photo-example3-mb@2x.jpg\";\n\n//# sourceURL=webpack:///./source/img/photo-example3-mb@2x.jpg?");
+
+/***/ }),
+
+/***/ "./source/img/photo-example4-mb.jpg":
+/*!******************************************!*\
+  !*** ./source/img/photo-example4-mb.jpg ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/photo-example4-mb.jpg\";\n\n//# sourceURL=webpack:///./source/img/photo-example4-mb.jpg?");
+
+/***/ }),
+
+/***/ "./source/img/photo-example4-mb@2x.jpg":
+/*!*********************************************!*\
+  !*** ./source/img/photo-example4-mb@2x.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/photo-example4-mb@2x.jpg\";\n\n//# sourceURL=webpack:///./source/img/photo-example4-mb@2x.jpg?");
+
+/***/ }),
+
+/***/ "./source/img/photo-example5-mb.jpg":
+/*!******************************************!*\
+  !*** ./source/img/photo-example5-mb.jpg ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/photo-example5-mb.jpg\";\n\n//# sourceURL=webpack:///./source/img/photo-example5-mb.jpg?");
+
+/***/ }),
+
+/***/ "./source/img/photo-example5-mb@2x.jpg":
+/*!*********************************************!*\
+  !*** ./source/img/photo-example5-mb@2x.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/photo-example5-mb@2x.jpg\";\n\n//# sourceURL=webpack:///./source/img/photo-example5-mb@2x.jpg?");
+
+/***/ }),
+
+/***/ "./source/img/photo-example6-mb.jpg":
+/*!******************************************!*\
+  !*** ./source/img/photo-example6-mb.jpg ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/photo-example6-mb.jpg\";\n\n//# sourceURL=webpack:///./source/img/photo-example6-mb.jpg?");
+
+/***/ }),
+
+/***/ "./source/img/photo-example6-mb@2x.jpg":
+/*!*********************************************!*\
+  !*** ./source/img/photo-example6-mb@2x.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/photo-example6-mb@2x.jpg\";\n\n//# sourceURL=webpack:///./source/img/photo-example6-mb@2x.jpg?");
 
 /***/ }),
 
@@ -1174,7 +1383,7 @@ eval("var __WEBPACK_AMD_DEFINE_RESULT__;/*! Picturefill - v2.3.1 - 2015-04-09\n*
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(function($) {/* harmony import */ var slick_carousel__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! slick-carousel */ \"./node_modules/slick-carousel/slick/slick.js\");\n/* harmony import */ var slick_carousel__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(slick_carousel__WEBPACK_IMPORTED_MODULE_0__);\n //Слайдер для отзывов\n\n$('.reviews__list').slick({\n  dots: false,\n  infinite: true,\n  speed: 1000,\n  slidesToShow: 1,\n  adaptiveHeight: true,\n  prevArrow: \"<button type=\\\"button\\\" class=\\\"slick-arrow slick-prev\\\">\\n  <svg role=\\\"img\\\" class =\\\"reviews__arrow reviews__arrow--left\\\" width=\\\"22\\\" height=\\\"41\\\" alt=\\\"arrow-left\\\">\\n  <use xlink:href=\\\"/build/img/i-sprite.svg#arrow\\\">\\n  </use>\\n  </svg>\\n  </button>\",\n  nextArrow: \"<button type=\\\"button\\\" class=\\\"slick-arrow slick-next\\\">\\n  <svg role=\\\"img\\\" class =\\\"reviews__arrow reviews__arrow--right\\\" width=\\\"22\\\" height=\\\"41\\\" alt=\\\"arrow-right\\\">\\n  <use xlink:href=\\\"/build/img/i-sprite.svg#arrow\\\">\\n  </use>\\n  </svg>\\n  </button>\",\n\n  /* arrows: false */\n\n  /*  fade: true,\n   cssEase: 'linear' */\n\n  /*   autoplay: true,\n    autoplaySpeed: 2000 */\n  responsive: [{\n    breakpoint: 1200,\n    settings: {\n      dots: true,\n      slidesToShow: 1,\n      slidesToScroll: 1,\n      infinite: true,\n      arrows: false\n    }\n  }]\n});\nvar createSlider = true; //var tariffsSlider = document.querySelector('.tariffs__wrapper');\n\nvar tariffsSliderCloned = $('.tariffs__wrapper').clone(true);\nvar tariffsSection = $('.page-main__tariffs');\nvar tariffsItemMarkup = \"<div class=\\\"tariffs__item tariffs__item--first\\\">\\n                         <div class=\\\"tariffs__header\\\"></div>\\n                         <div class=\\\"tariffs__cell\\\">\\n                           \\u0420\\u043E\\u0437\\u043E\\u0432\\u044B\\u0439 \\u0444\\u0438\\u043B\\u044C\\u0442\\u0440\\n                         </div>\\n                         <div class=\\\"tariffs__cell\\\">\\n                           \\u0421\\u043C\\u0430\\u0439\\u043B\\u0438\\u043A\\u0438\\n                         </div>\\n                         <div class=\\\"tariffs__cell\\\">\\n                           \\u041A\\u043E\\u043C\\u043C\\u0435\\u043D\\u0442\\u0430\\u0440\\u0438\\u0438\\n                         </div>\\n                         </div>\";\nvar tariffsWrapper = document.querySelector('.tariffs__wrapper');\n\nif (tariffsWrapper) {\n  tariffsWrapper.insertAdjacentHTML(\"afterbegin\", tariffsItemMarkup);\n}\n\nfunction initSlick() {\n  if (document.documentElement.clientWidth >= 660) {\n    if (!createSlider) {\n      createSlider = true;\n      $('.tariffs__wrapper').slick('unslick');\n      tariffsSection.html('');\n      tariffsSection.append(tariffsSliderCloned.clone(true));\n      document.querySelector('.tariffs__wrapper').insertAdjacentHTML(\"afterbegin\", tariffsItemMarkup);\n    }\n  } else if (createSlider) {\n    createSlider = false;\n    var firstItem = document.querySelector('.tariffs__item--first');\n\n    if (firstItem) {\n      firstItem.remove();\n    }\n\n    $('.tariffs__wrapper').slick({\n      dots: false,\n      arrows: false,\n      responsive: [{\n        breakpoint: 660,\n        settings: {\n          dots: true,\n          slidesToShow: 1,\n          slidesToScroll: 1,\n          infinite: true,\n          arrows: false,\n          speed: 1000,\n          slidesToShow: 1,\n          adaptiveHeight: true,\n          centerMode: true,\n          variableWidth: true\n        }\n      }]\n    });\n  } //Слайдер для тарифов\n\n}\n\ninitSlick(); //Отключаем слайдер для тарифов на планшетной версии (>= 660px)\n\n$(window).resize(function () {\n  initSlick();\n});\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\")))\n\n//# sourceURL=webpack:///./source/js/slider.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(function($) {/* harmony import */ var slick_carousel__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! slick-carousel */ \"./node_modules/slick-carousel/slick/slick.js\");\n/* harmony import */ var slick_carousel__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(slick_carousel__WEBPACK_IMPORTED_MODULE_0__);\n //Слайдер для отзывов\n\n$('.reviews__list').slick({\n  dots: false,\n  infinite: true,\n  speed: 1000,\n  slidesToShow: 1,\n  adaptiveHeight: true,\n  prevArrow: \"<button type=\\\"button\\\" class=\\\"slick-arrow slick-prev\\\">\\n  <svg role=\\\"img\\\" class =\\\"reviews__arrow reviews__arrow--left\\\" width=\\\"22\\\" height=\\\"41\\\" alt=\\\"arrow-left\\\">\\n  <use xlink:href=\\\"/build/img/i-sprite.svg#arrow\\\">\\n  </use>\\n  </svg>\\n  </button>\",\n  nextArrow: \"<button type=\\\"button\\\" class=\\\"slick-arrow slick-next\\\">\\n  <svg role=\\\"img\\\" class =\\\"reviews__arrow reviews__arrow--right\\\" width=\\\"22\\\" height=\\\"41\\\" alt=\\\"arrow-right\\\">\\n  <use xlink:href=\\\"/build/img/i-sprite.svg#arrow\\\">\\n  </use>\\n  </svg>\\n  </button>\",\n\n  /* arrows: false */\n\n  /*  fade: true,\n   cssEase: 'linear' */\n\n  /*   autoplay: true,\n    autoplaySpeed: 2000 */\n  responsive: [{\n    breakpoint: 1200,\n    settings: {\n      dots: true,\n      slidesToShow: 1,\n      slidesToScroll: 1,\n      infinite: true,\n      arrows: false\n    }\n  }]\n}); //Слайдер для тарифов\n\nvar createSlider = true; //var tariffsSlider = document.querySelector('.tariffs__wrapper');\n\nvar tariffsSliderCloned = $('.tariffs__wrapper').clone(true);\nvar tariffsSection = $('.page-main__tariffs');\nvar tariffsItemMarkup = \"<div class=\\\"tariffs__item tariffs__item--first\\\">\\n                         <div class=\\\"tariffs__header\\\"></div>\\n                         <div class=\\\"tariffs__cell\\\">\\n                           \\u0420\\u043E\\u0437\\u043E\\u0432\\u044B\\u0439 \\u0444\\u0438\\u043B\\u044C\\u0442\\u0440\\n                         </div>\\n                         <div class=\\\"tariffs__cell\\\">\\n                           \\u0421\\u043C\\u0430\\u0439\\u043B\\u0438\\u043A\\u0438\\n                         </div>\\n                         <div class=\\\"tariffs__cell\\\">\\n                           \\u041A\\u043E\\u043C\\u043C\\u0435\\u043D\\u0442\\u0430\\u0440\\u0438\\u0438\\n                         </div>\\n                         </div>\";\nvar tariffsWrapper = document.querySelector('.tariffs__wrapper');\n\nif (tariffsWrapper) {\n  tariffsWrapper.insertAdjacentHTML(\"afterbegin\", tariffsItemMarkup);\n}\n\nfunction initSlick() {\n  if (document.documentElement.clientWidth >= 660) {\n    if (!createSlider) {\n      createSlider = true;\n      $('.tariffs__wrapper').slick('unslick');\n      tariffsSection.html('');\n      tariffsSection.append(tariffsSliderCloned.clone(true));\n\n      if (tariffsWrapper) {\n        document.querySelector('.tariffs__wrapper').insertAdjacentHTML(\"afterbegin\", tariffsItemMarkup);\n      }\n    }\n  } else if (createSlider) {\n    createSlider = false;\n    var firstItem = document.querySelector('.tariffs__item--first');\n\n    if (firstItem) {\n      firstItem.remove();\n    }\n\n    $('.tariffs__wrapper').slick({\n      dots: false,\n      arrows: false,\n      responsive: [{\n        breakpoint: 660,\n        settings: {\n          dots: true,\n          slidesToShow: 1,\n          slidesToScroll: 1,\n          infinite: true,\n          arrows: false,\n          speed: 1000,\n          slidesToShow: 1,\n          adaptiveHeight: true,\n          centerMode: true,\n          variableWidth: true\n        }\n      }]\n    });\n  } //Слайдер для тарифов\n\n}\n\ninitSlick(); //Отключаем слайдер для тарифов на планшетной версии (>= 660px)\n\n$(window).resize(function () {\n  initSlick();\n});\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\")))\n\n//# sourceURL=webpack:///./source/js/slider.js?");
 
 /***/ }),
 

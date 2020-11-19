@@ -65,7 +65,7 @@
   </header>
 
   <main class="page-photos">
-    <section class="page-photos__promo promo">
+    <section class="page-photos__promo promo promo--photos">
       <div class="container">
         <h1 class="promo__header promo__header--photos">
           Фотографии
@@ -73,6 +73,284 @@
         </h1>
       </div>
       </div>
+    </section>
+
+    <section class="page-photos__user-photos user-photos">
+      <div class="container">
+        <p class="user-photos__text">
+          Взгляните на фотографии, которые выкладывают пользователи!
+          Видите, как не хватает ваших?
+        </p>
+      </div>
+
+      <section class="user-photos__main-photo main-photo">
+        <div class="main-photo__img">
+
+          <picture>
+            <source type="image/webp" media="(min-width: 1200px)"
+              srcset="/build/img/main-photo-desktop.webp 1x, /build/img/main-photo-desktop@2x.webp 2x">
+            <source type="image/webp" media="(min-width: 660px)"
+              srcset="/build/img/main-photo-tablet.webp 1x, /build/img/main-photo-tablet@2x.webp 2x">
+            <source type="image/webp" srcset="/build/img/main-photo-mb.webp, /build/img/main-photo-mb@2x.webp 2x">
+
+            <source media="(min-width: 1200px)"
+              srcset="/build/img/main-photo-desktop.jpg 1x, /build/img/main-photo-desktop@2x.jpg 2x">
+            <source media="(min-width: 660px)"
+              srcset="/build/img/main-photo-tablet.jpg 1x, /build/img/main-photo-tablet@2x.jpg 2x">
+            <img src="/build/img/main-photo-mb.jpg" srcset="/build/img/main-photo-mb@2x.jpg 2x" width="320" height="137"
+              alt="Main photo">
+          </picture>
+
+        </div>
+        <div class="container">
+          <div class="main-photo__user-comment user-comment">
+            <p class="user-comment__name">Анна <span class="user-comment__time">(5 минут назад)</span></p>
+            <p class="user-comment__text">
+              Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе, задавайте
+              свои вопросы!
+            </p>
+            <div class="user-comment__wrapper">
+              <button class="user-comment__heart" type="button">
+                <svg role="img" class="" width="13" height="12">
+                  <use xlink:href="/build/img/i-sprite.svg#heart-icon">
+                  </use>
+                </svg>
+              </button>
+              <div class="user-comment__likes">Нравится: <span class="user-comment__likes-number">215</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="user-photos__examples photo-examples">
+        <div class="container">
+          <ul class="photo-examples__list">
+            <li class="photo-examples__item">
+              <div class="photo-examples__img">
+
+                <picture>
+                  <source type="image/webp" media="(min-width: 1200px)"
+                    srcset="/build/img/photo-example1-desktop.webp 1x, /build/img/photo-example1-desktop@2x.webp 2x">
+                  <source type="image/webp" media="(min-width: 660px)"
+                    srcset="/build/img/photo-example1-tablet.webp 1x, /build/img/photo-example1-tablet@2x.webp 2x">
+                  <source type="image/webp"
+                    srcset="/build/img/photo-example1-mb.webp, /build/img/photo-example1-mb@2x.webp 2x">
+
+                  <source media="(min-width: 1200px)"
+                    srcset="/build/img/photo-example1-desktop.jpg 1x, /build/img/photo-example1-desktop@2x.jpg 2x">
+                  <source media="(min-width: 660px)"
+                    srcset="/build/img/photo-example1-tablet.jpg 1x, /build/img/photo-example1-tablet@2x.jpg 2x">
+                  <img src="/build/img/photo-example1-mb.jpg" srcset="/build/img/photo-example1-mb@2x.jpg 2x"
+                    width="280" height="180" alt="photo-example">
+                </picture>
+
+              </div>
+              <div class="photo-examples__user-comment user-comment">
+                <p class="user-comment__name">Левон <span class="user-comment__time">(5 часов назад)</span></p>
+                <p class="user-comment__text">
+                  Вчера он на луну летал, сегодня в руки к нам попал.
+                </p>
+                <div class="user-comment__wrapper">
+                  <button class="user-comment__heart" type="button">
+                    <svg role="img" class="" width="13" height="12">
+                      <use xlink:href="/build/img/i-sprite.svg#heart-icon">
+                      </use>
+                    </svg>
+                  </button>
+                  <div class="user-comment__likes">Нравится: <span class="user-comment__likes-number">356</span></div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="photo-examples__item">
+              <div class="photo-examples__img">
+                <picture>
+                  <source type="image/webp" media="(min-width: 1200px)"
+                    srcset="/build/img/photo-example2-desktop.webp 1x, /build/img/photo-example2-desktop@2x.webp 2x">
+                  <source type="image/webp" media="(min-width: 660px)"
+                    srcset="/build/img/photo-example2-tablet.webp 1x, /build/img/photo-example2-tablet@2x.webp 2x">
+                  <source type="image/webp"
+                    srcset="/build/img/photo-example2-mb.webp, /build/img/photo-example2-mb@2x.webp 2x">
+
+                  <source media="(min-width: 1200px)"
+                    srcset="/build/img/photo-example2-desktop.jpg 1x, /build/img/photo-example2-desktop@2x.jpg 2x">
+                  <source media="(min-width: 660px)"
+                    srcset="/build/img/photo-example2-tablet.jpg 1x, /build/img/photo-example2-tablet@2x.jpg 2x">
+                  <img src="/build/img/photo-example2-mb.jpg" srcset="/build/img/photo-example2-mb@2x.jpg 2x"
+                    width="280" height="180" alt="photo-example">
+                </picture>
+              </div>
+
+              <div class="photo-examples__user-comment user-comment">
+                <p class="user-comment__name">Антон <span class="user-comment__time">(12 часов назад)</span></p>
+                <p class="user-comment__text">
+                  Соседи будут рады!
+                </p>
+                <div class="user-comment__wrapper">
+                  <button class="user-comment__heart" type="button">
+                    <svg role="img" class="" width="13" height="12">
+                      <use xlink:href="/build/img/i-sprite.svg#heart-icon">
+                      </use>
+                    </svg>
+                  </button>
+                  <div class="user-comment__likes">Нравится: <span class="user-comment__likes-number">666</span></div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="photo-examples__item">
+              <div class="photo-examples__img">
+                <picture>
+                  <source type="image/webp" media="(min-width: 1200px)"
+                    srcset="/build/img/photo-example3-desktop.webp 1x, /build/img/photo-example3-desktop@2x.webp 2x">
+                  <source type="image/webp" media="(min-width: 660px)"
+                    srcset="/build/img/photo-example3-tablet.webp 1x, /build/img/photo-example3-tablet@2x.webp 2x">
+                  <source type="image/webp"
+                    srcset="/build/img/photo-example3-mb.webp, /build/img/photo-example3-mb@2x.webp 2x">
+
+                  <source media="(min-width: 1200px)"
+                    srcset="/build/img/photo-example3-desktop.jpg 1x, /build/img/photo-example3-desktop@2x.jpg 2x">
+                  <source media="(min-width: 660px)"
+                    srcset="/build/img/photo-example3-tablet.jpg 1x, /build/img/photo-example3-tablet@2x.jpg 2x">
+                  <img src="/build/img/photo-example3-mb.jpg" srcset="/build/img/photo-example3-mb@2x.jpg 2x"
+                    width="280" height="180" alt="photo-example">
+                </picture>
+              </div>
+
+              <div class="photo-examples__user-comment user-comment">
+                <p class="user-comment__name">Борис <span class="user-comment__time">(20 часов назад)</span></p>
+                <p class="user-comment__text">
+                  Здесь могла быть ваша цитата о высоком и вечном.
+                </p>
+                <div class="user-comment__wrapper">
+                  <button class="user-comment__heart" type="button">
+                    <svg role="img" class="" width="13" height="12">
+                      <use xlink:href="/build/img/i-sprite.svg#heart-icon">
+                      </use>
+                    </svg>
+                  </button>
+                  <div class="user-comment__likes">Нравится: <span class="user-comment__likes-number">215</span></div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="photo-examples__item">
+              <div class="photo-examples__img">
+                <picture>
+                  <source type="image/webp" media="(min-width: 1200px)"
+                    srcset="/build/img/photo-example4-desktop.webp 1x, /build/img/photo-example4-desktop@2x.webp 2x">
+                  <source type="image/webp" media="(min-width: 660px)"
+                    srcset="/build/img/photo-example4-tablet.webp 1x, /build/img/photo-example4-tablet@2x.webp 2x">
+                  <source type="image/webp"
+                    srcset="/build/img/photo-example4-mb.webp, /build/img/photo-example4-mb@2x.webp 2x">
+
+                  <source media="(min-width: 1200px)"
+                    srcset="/build/img/photo-example4-desktop.jpg 1x, /build/img/photo-example4-desktop@2x.jpg 2x">
+                  <source media="(min-width: 660px)"
+                    srcset="/build/img/photo-example4-tablet.jpg 1x, /build/img/photo-example4-tablet@2x.jpg 2x">
+                  <img src="/build/img/photo-example4-mb.jpg" srcset="/build/img/photo-example4-mb@2x.jpg 2x"
+                    width="280" height="180" alt="photo-example">
+                </picture>
+              </div>
+
+              <div class="photo-examples__user-comment user-comment">
+                <p class="user-comment__name">Сергей <span class="user-comment__time">(25 часов назад)</span></p>
+                <p class="user-comment__text">
+                  Самая кубанская в мире!
+                </p>
+                <div class="user-comment__wrapper">
+                  <button class="user-comment__heart" type="button">
+                    <svg role="img" class="" width="13" height="12">
+                      <use xlink:href="/build/img/i-sprite.svg#heart-icon">
+                      </use>
+                    </svg>
+                  </button>
+                  <div class="user-comment__likes">Нравится: <span class="user-comment__likes-number">4</span></div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="photo-examples__item">
+              <div class="photo-examples__img">
+                <picture>
+                  <source type="image/webp" media="(min-width: 1200px)"
+                    srcset="/build/img/photo-example5-desktop.webp 1x, /build/img/photo-example5-desktop@2x.webp 2x">
+                  <source type="image/webp" media="(min-width: 660px)"
+                    srcset="/build/img/photo-example5-tablet.webp 1x, /build/img/photo-example5-tablet@2x.webp 2x">
+                  <source type="image/webp"
+                    srcset="/build/img/photo-example5-mb.webp, /build/img/photo-example5-mb@2x.webp 2x">
+
+                  <source media="(min-width: 1200px)"
+                    srcset="/build/img/photo-example5-desktop.jpg 1x, /build/img/photo-example5-desktop@2x.jpg 2x">
+                  <source media="(min-width: 660px)"
+                    srcset="/build/img/photo-example5-tablet.jpg 1x, /build/img/photo-example5-tablet@2x.jpg 2x">
+                  <img src="/build/img/photo-example5-mb.jpg" srcset="/build/img/photo-example5-mb@2x.jpg 2x"
+                    width="280" height="180" alt="photo-example">
+                </picture>
+              </div>
+
+              <div class="photo-examples__user-comment user-comment">
+                <p class="user-comment__name">Максим <span class="user-comment__time">(40 часов назад)</span></p>
+                <p class="user-comment__text">
+                  Где снег-то?
+                </p>
+                <div class="user-comment__wrapper">
+                  <button class="user-comment__heart" type="button">
+                    <svg role="img" class="" width="13" height="12">
+                      <use xlink:href="/build/img/i-sprite.svg#heart-icon">
+                      </use>
+                    </svg>
+                  </button>
+                  <div class="user-comment__likes">Нравится: <span class="user-comment__likes-number">150</span></div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="photo-examples__item">
+              <div class="photo-examples__img">
+                <picture>
+                  <source type="image/webp" media="(min-width: 1200px)"
+                    srcset="/build/img/photo-example6-desktop.webp 1x, /build/img/photo-example6-desktop@2x.webp 2x">
+                  <source type="image/webp" media="(min-width: 660px)"
+                    srcset="/build/img/photo-example6-tablet.webp 1x, /build/img/photo-example6-tablet@2x.webp 2x">
+                  <source type="image/webp"
+                    srcset="/build/img/photo-example6-mb.webp, /build/img/photo-example6-mb@2x.webp 2x">
+
+                  <source media="(min-width: 1200px)"
+                    srcset="/build/img/photo-example6-desktop.jpg 1x, /build/img/photo-example6-desktop@2x.jpg 2x">
+                  <source media="(min-width: 660px)"
+                    srcset="/build/img/photo-example6-tablet.jpg 1x, /build/img/photo-example6-tablet@2x.jpg 2x">
+                  <img src="/build/img/photo-example6-mb.jpg" srcset="/build/img/photo-example6-mb@2x.jpg 2x"
+                    width="280" height="180" alt="photo-example">
+                </picture>
+              </div>
+
+              <div class="photo-examples__user-comment user-comment">
+                <p class="user-comment__name">Надежда <span class="user-comment__time">(45 часов назад)</span></p>
+                <p class="user-comment__text">
+                  Всем GM и взаимные лайки!
+                </p>
+                <div class="user-comment__wrapper">
+                  <button class="user-comment__heart" type="button">
+                    <svg role="img" class="" width="13" height="12">
+                      <use xlink:href="/build/img/i-sprite.svg#heart-icon">
+                      </use>
+                    </svg>
+                  </button>
+                  <div class="user-comment__likes">Нравится: <span class="user-comment__likes-number">2560</span></div>
+                </div>
+
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
     </section>
   </main>
 

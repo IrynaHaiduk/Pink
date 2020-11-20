@@ -1,8 +1,0 @@
-export default {
-      id: "heart-fill-usage",
-      viewBox: "0 0 122.88 107.41",
-      url: __webpack_public_path__ + "C:\\Users\\Ирина\\Desktop\\Pink\\source\\img\\heart-fill.svg",
-      toString: function () {
-        return this.url;
-      }
-    }

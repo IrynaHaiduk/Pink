@@ -22,8 +22,8 @@ $('.reviews__list').slick({
   /* arrows: false */
   /*  fade: true,
    cssEase: 'linear' */
-  /*   autoplay: true,
-    autoplaySpeed: 2000 */
+  autoplay: true,
+  autoplaySpeed: 1500,
   responsive: [{
     breakpoint: 1200,
     settings: {
@@ -87,6 +87,8 @@ function initSlick() {
       responsive: [{
         breakpoint: 660,
         settings: {
+          autoplay: true,
+          autoplaySpeed: 1500,
           dots: true,
           slidesToShow: 1,
           slidesToScroll: 1,

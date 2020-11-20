@@ -38,6 +38,20 @@
       right: 2%;
     }
   }
+
+  .main-photo__user-comment.user-comment {
+    position: relative;
+
+    .user-comment__wrapper {
+      position: absolute;
+      top: 24px;
+      right: 28px;
+    }
+
+    .user-comment__heart {
+      margin-left: 18px;
+    }
+  }
 }
 
 @media (min-width: $desktop-width) {
@@ -49,6 +63,18 @@
     &::before {
       top: 54px;
       right: 10.5%;
+    }
+  }
+
+  .main-photo__user-comment.user-comment {
+    .user-comment__wrapper {
+      right: 32px;
+    }
+  }
+
+  .main-photo__user-comment.user-comment {
+    .user-comment__heart {
+      margin-left: 16px;
     }
   }
 }

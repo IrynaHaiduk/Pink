@@ -2356,7 +2356,9 @@ li {
   .user-photos__text {
     font-size: 18px;
     width: 445px;
-    margin-bottom: 76px; } }
+    margin-bottom: 76px; }
+  .user-photos__main-photo {
+    margin-bottom: 50px; } }
 
 @media (min-width: 1200px) {
   .user-photos {
@@ -2391,14 +2393,26 @@ li {
     height: 509px; }
   .main-photo__img::before {
     top: 57px;
-    right: 2%; } }
+    right: 2%; }
+  .main-photo__user-comment.user-comment {
+    position: relative; }
+    .main-photo__user-comment.user-comment .user-comment__wrapper {
+      position: absolute;
+      top: 24px;
+      right: 28px; }
+    .main-photo__user-comment.user-comment .user-comment__heart {
+      margin-left: 18px; } }
 
 @media (min-width: 1200px) {
   .main-photo__img img {
     height: 506px; }
   .main-photo__img::before {
     top: 54px;
-    right: 10.5%; } }
+    right: 10.5%; }
+  .main-photo__user-comment.user-comment .user-comment__wrapper {
+    right: 32px; }
+  .main-photo__user-comment.user-comment .user-comment__heart {
+    margin-left: 16px; } }
 
 .user-comment {
   background-color: #f2f2f2;
@@ -2457,34 +2471,71 @@ li {
     stroke-linejoin: round;
     transition: 0.4s ease; }
   .user-comment__heart:hover svg {
-    stroke-opacity: 0.7; }
-  .user-comment__heart:focus svg,
-  .user-comment__heart:active svg {
+    stroke-opacity: 0.6; }
+  .user-comment__heart--active svg {
     fill: #d22856;
     stroke-opacity: 1; }
 
-/* /* Text styles for "Анна " */
-/*
-Text styles for "Анна "
- */
-/* Text styles for "(" */
-/*
- Text styles for "("
-  */
-/* Text styles for "5 минут назад)'" */
-/*
- Text styles for "5 минут назад)'"
-  */
-/*  font-size: 12px;
- font-weight: 300;
- text-transform: uppercase; */
-/* Text styles for "Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!" */
-/*
- Text styles for "Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!"
-  */
+@media (min-width: 660px) {
+  .user-comment {
+    padding-top: 24px;
+    padding-left: 28px;
+    padding-bottom: 24px; }
+  .user-comment__text {
+    margin-bottom: 0; }
+  .user-comment__wrapper {
+    display: flex;
+    justify-content: space-between; }
+    .user-comment__wrapper .user-comment__heart {
+      order: 1;
+      margin-right: 0; } }
+
+@media (min-width: 1200px) {
+  .user-comment {
+    padding-top: 23px; } }
+
 .photo-examples__item {
   margin-bottom: 21px; }
 
+.photo-examples__img img {
+  width: 280px;
+  height: 180px; }
+
 .photo-examples .user-comment__text {
   margin-bottom: 9px; }
+
+@media (min-width: 660px) {
+  .photo-examples__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+  .photo-examples__item {
+    width: 300px;
+    margin-bottom: 20px; }
+    .photo-examples__item:last-of-type, .photo-examples__item:nth-last-of-type(2) {
+      margin-bottom: 0; }
+  .photo-examples__img img {
+    width: 300px;
+    height: 300px; }
+  .photo-examples__user-comment.user-comment {
+    min-height: 155px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    .photo-examples__user-comment.user-comment .user-comment__wrapper .user-comment__heart {
+      margin-right: 20px; } }
+
+@media (min-width: 1200px) {
+  .photo-examples__img img {
+    width: 300px;
+    height: 400px; }
+  .photo-examples__list {
+    justify-content: start; }
+  .photo-examples__item {
+    margin-bottom: 54px;
+    margin-right: 20px; }
+    .photo-examples__item:nth-of-type(3n) {
+      margin-right: 0; }
+    .photo-examples__item:nth-last-of-type(3) {
+      margin-bottom: 0; } }
 

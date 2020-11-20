@@ -66,35 +66,42 @@
   }
 
   &:hover svg {
-    stroke-opacity: 0.7;
+    stroke-opacity: 0.6;
   }
 
-  &:focus svg,
-  &:active svg {
+  &--active svg {
     fill: $pink;
     stroke-opacity: 1;
   }
 }
 
-/* /* Text styles for "Анна " */
-/*
-Text styles for "Анна "
- */
+@media (min-width: $tablet-width) {
+  .user-comment {
+    // position: relative;
+    padding-top: 24px;
+    padding-left: 28px;
+    padding-bottom: 24px;
+  }
 
-/* Text styles for "(" */
-/*
- Text styles for "("
-  */
-//font-weight: 300;
-/* Text styles for "5 минут назад)'" */
-/*
- Text styles for "5 минут назад)'"
-  */
-/*  font-size: 12px;
- font-weight: 300;
- text-transform: uppercase; */
-/* Text styles for "Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!" */
-/*
- Text styles for "Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!"
-  */
-//font-weight: 400; */
+  .user-comment__text {
+    margin-bottom: 0;
+  }
+
+  .user-comment__wrapper {
+    // position: absolute;
+    // width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    .user-comment__heart {
+      order: 1;
+      margin-right: 0;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .user-comment {
+    padding-top: 23px;
+  }
+}

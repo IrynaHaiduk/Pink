@@ -1,0 +1,8 @@
+export default {
+      id: "edit-crop-usage",
+      viewBox: "0 0 48 48",
+      url: __webpack_public_path__ + "C:\\Users\\Ирина\\Desktop\\Pink\\source\\img\\edit-crop.svg",
+      toString: function () {
+        return this.url;
+      }
+    }

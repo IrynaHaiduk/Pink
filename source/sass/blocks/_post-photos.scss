@@ -1,0 +1,30 @@
+.post-photos {
+}
+
+.post-photos__text {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: $grey-blue;
+  text-align: center;
+  padding-top: 49px;
+  padding-bottom: 48px;
+}
+
+@media (min-width: $tablet-width) {
+  .post-photos {
+  }
+
+  .post-photos__text {
+    font-size: 18px;
+    padding-top: 74px;
+    padding-bottom: 72px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .post-photos__text {
+    padding-top: 68px;
+    padding-bottom: 69px;
+  }
+}

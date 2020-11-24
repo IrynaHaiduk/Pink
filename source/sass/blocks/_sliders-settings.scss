@@ -1,0 +1,150 @@
+.sliders-settings {
+}
+
+.sliders-settings__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 75px;
+  margin-bottom: 38px;
+  border-bottom: 1px solid rgba($grey-blue, 0.1);
+  position: relative;
+}
+
+.sliders-settings__img {
+  svg {
+    fill: $grey-blue;
+    fill-opacity: 0.3;
+    transition: 0.4s ease;
+    cursor: pointer;
+
+    &:hover {
+      fill-opacity: 0.5;
+    }
+
+    &:focus,
+    &:active {
+      fill: $pink;
+      fill-opacity: 1;
+    }
+  }
+}
+
+.sliders-settings__img--active {
+  svg {
+    fill: $pink;
+    fill-opacity: 1;
+  }
+}
+
+.sliders-settings__range.ui-widget.ui-widget-content {
+  position: absolute;
+  border: none;
+  height: 2px;
+  background-color: $grey-blue;
+  width: 240px;
+  left: 20px;
+  top: 80px;
+  display: none;
+}
+
+.sliders-settings__range.ui-slider .ui-slider-handle {
+  width: 14px;
+  height: 14px;
+  background-color: $light4;
+  border: 2px solid $pink;
+  border-radius: 50%;
+  cursor: pointer;
+  top: 50%;
+  transform: translateY(-50%);
+  outline: none;
+  transition: 0.4s ease;
+
+  &:hover {
+    border-color: rgba($pink, 0.6);
+  }
+
+  &:active,
+  &:focus {
+    background-color: $pink;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .sliders-settings__list {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 0;
+    width: 100%;
+    padding-right: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: none;
+  }
+
+  .sliders-settings__item {
+    height: 69px;
+    border-bottom: 1px solid rgba($grey-blue, 0.1);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &:first-of-type svg {
+      width: 22px;
+      height: 22px;
+    }
+
+    &:nth-of-type(2) svg {
+      width: 22px;
+      height: 22px;
+    }
+
+    &:nth-of-type(3) svg {
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  .sliders-settings__range.ui-widget.ui-widget-content {
+    position: relative;
+    width: 202px;
+    left: auto;
+    top: auto;
+    display: block;
+  }
+
+  .sliders-settings__img {
+    /*   svg {
+      fill: $pink;
+      fill-opacity: 1;
+    } */
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .sliders-settings__item {
+    padding-right: 30px;
+
+    &:first-of-type svg {
+      width: 44px;
+      height: 44px;
+    }
+
+    &:nth-of-type(2) svg {
+      width: 48px;
+      height: 43px;
+    }
+
+    &:nth-of-type(3) svg {
+      width: 32px;
+      height: 32px;
+    }
+  }
+
+  .sliders-settings__range.ui-widget.ui-widget-content {
+    width: 288px;
+  }
+}

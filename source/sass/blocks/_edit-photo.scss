@@ -1,0 +1,131 @@
+.edit-photo {
+  padding-top: 20px;
+  padding-bottom: 41px;
+  background-color: $light4;
+}
+
+.edit-photo__img {
+  margin-bottom: 42px;
+
+  img {
+    width: 280px;
+    height: 374px;
+  }
+}
+
+.edit-photo__btn {
+  width: 280px;
+  height: 55px;
+  border-radius: 40px;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  text-align: center;
+  transition: 0.4s ease;
+  cursor: pointer;
+  outline: none;
+
+  &--post {
+    margin-bottom: 12px;
+    border: 3px solid $pink;
+    color: $pink;
+
+    &:hover {
+      background-color: $pink;
+      color: $white;
+    }
+
+    &:focus,
+    &:active {
+      color: rgba($white, 0.3);
+    }
+  }
+
+  &--cancel {
+    color: rgba($grey-blue, 0.1);
+    border: 3px solid rgba($grey-blue, 0.1);
+
+    &:hover {
+      border-color: rgba($grey-blue, 0.3);
+      color: rgba($grey-blue, 0.3);
+    }
+
+    &:focus,
+    &:active {
+      color: rgba($white, 0.3);
+      background-color: rgba($grey-blue, 0.3);
+      border: 3px solid rgba($grey-blue, 0);
+    }
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .edit-photo {
+    padding-top: 57px;
+    padding-bottom: 54px;
+  }
+
+  .edit-photo__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .edit-photo__img {
+    width: 300px;
+    margin-bottom: 0;
+
+    img {
+      //desktop the same
+      width: 300px;
+      height: 400px;
+    }
+  }
+
+  .edit-photo__settings {
+    width: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .edit-photo__btn {
+    width: 260px;
+
+    &--post {
+      margin-bottom: 24px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .edit-photo {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: transparent;
+  }
+
+  .edit-photo__wrapper {
+    padding-top: 57px;
+    padding-bottom: 57px;
+    padding-right: 80px;
+    padding-left: 60px;
+    background-color: $light4;
+  }
+
+  .edit-photo__settings {
+    width: 410px;
+  }
+
+  .edit-photo__btns {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .edit-photo__btn {
+    width: 183px;
+
+    &--post {
+      margin-bottom: 0;
+    }
+  }
+}

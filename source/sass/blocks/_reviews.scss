@@ -16,6 +16,17 @@
     top: 50%;
     transform: translateY(-50%);
     z-index: 1;
+    outline: none;
+    cursor: pointer;
+
+    &:hover .reviews__arrow {
+      fill-opacity: 0.8;
+    }
+
+    &:focus .reviews__arrow,
+    &:active .reviews__arrow {
+      fill-opacity: 0.2;
+    }
   }
 
   .slick-prev {
@@ -34,8 +45,10 @@
 .reviews__arrow {
   width: 22px;
   height: 41px;
-  fill-opacity: 0.3;
+  fill-opacity: 0.4;
   fill: $grey-blue;
+  transition: 0.4s ease;
+  cursor: pointer;
 
   &--right {
     transform: rotate(180deg);

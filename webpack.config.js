@@ -5,6 +5,8 @@ const SpriteLoaderPlugin = require('svg-sprite-loader/plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const ImageminWebpWebpackPlugin = require("imagemin-webp-webpack-plugin");
 const webpack = require("webpack");
+/* var $ = require("jquery");
+var $ = require("jquery-ui"); */
 
 
 
@@ -71,7 +73,11 @@ const config = {
   },
   resolve: {
     alias: {
-      'vue$': 'vue/dist/vue.esm.js' // 'vue/dist/vue.common.js' для webpack 1
+      'vue$': 'vue/dist/vue.esm.js', // 'vue/dist/vue.common.js' для webpack 1
+      // bind version of jquery-ui
+      /*   "jquery-ui": "jquery-ui/jquery-ui.js",
+        // bind to modules;
+        modules: path.join(__dirname, "node_modules"), */
     }
   },
   devServer: {
@@ -104,6 +110,7 @@ const config = {
       jQuery: 'jquery',
       'window.jquery': 'jquery',
       'window.jQuery': 'jquery',
+      //"window.$": "jquery"
     })
   ]
 };

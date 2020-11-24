@@ -1,4 +1,7 @@
-$(document).ready(function () {
+'use strict';
+
+// Ждем, когда загрузится DOM-дерево, а потовыполняем js-код
+document.addEventListener('DOMContentLoaded', () => {
   let navMenu = $('.js-main-nav');
   let navToggle = $('.js-main-nav__toggle');
   let pageHeader = $('.js-page-header');

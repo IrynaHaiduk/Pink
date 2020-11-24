@@ -364,6 +364,94 @@
       </section>
 
     </section>
+
+    <section class="user-photos__post-photo post-photos">
+      <div class="container">
+        <p class="post-photos__text">
+          Затмите их всех!<br>
+          Выкладывайте все, что накопилось в телефоне!
+        </p>
+      </div>
+
+      <section class="post-photos__edit edit-photo">
+        <div class="container">
+          <div class="edit-photo__wrapper">
+            <div class="edit-photo__img">
+              <picture>
+                <source type="image/webp" media="(min-width: 1200px)"
+                  srcset="/build/img/edit-photo-desktop.webp 1x, /build/img/edit-photo-desktop@2x.webp 2x">
+                <source type="image/webp" media="(min-width: 660px)"
+                  srcset="/build/img/edit-photo-tablet.webp 1x, /build/img/edit-photo-tablet@2x.webp 2x">
+                <source type="image/webp" srcset="/build/img/edit-photo-mb.webp, /build/img/edit-photo-mb@2x.webp 2x">
+
+                <source media="(min-width: 1200px)"
+                  srcset="/build/img/edit-photo-desktop.jpg 1x, /build/img/edit-photo-desktop@2x.jpg 2x">
+                <source media="(min-width: 660px)"
+                  srcset="/build/img/edit-photo-tablet.jpg 1x, /build/img/edit-photo-tablet@2x.jpg 2x">
+                <img src="/build/img/edit-photo-mb.jpg" srcset="/build/img/edit-photo-mb@2x.jpg 2x" width="280"
+                  height="374" alt="edit-photo">
+              </picture>
+            </div>
+            <div class="edit-photo__settings">
+              <div class="edit-photo__sliders sliders-settings">
+                <ul class="sliders-settings__list">
+                  <li class="sliders-settings__item">
+                    <div class="sliders-settings__img">
+                      <svg role="img" width="44" height="44" aria-label="edit-crop">
+                        <use xlink:href="/build/img/i-sprite.svg#edit-crop">
+                        </use>
+                      </svg>
+                    </div>
+                    <div class="sliders-settings__range js-slider">
+
+                    </div>
+
+                  </li>
+                  <li class="sliders-settings__item">
+                    <div class="sliders-settings__img">
+                      <svg role="img" width="48" height="43" aria-label="edit-fill">
+                        <use xlink:href="/build/img/i-sprite.svg#edit-fill">
+                        </use>
+                      </svg>
+                    </div>
+                    <div class="sliders-settings__range js-slider">
+
+                    </div>
+                  </li>
+                  <li class="sliders-settings__item">
+                    <div class="sliders-settings__img">
+                      <svg role="img" width="32" height="32" aria-label="edit-contrast">
+                        <use xlink:href="/build/img/i-sprite.svg#edit-contrast">
+                        </use>
+                      </svg>
+                    </div>
+                    <div class="sliders-settings__range js-slider">
+
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="edit-photo__btns">
+                <button class="edit-photo__btn edit-photo__btn--post">
+                  Запостить
+                </button>
+                <button class="edit-photo__btn edit-photo__btn--cancel">
+                  Отмена
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+
+      </section>
+
+
+
+
+    </section>
   </main>
 
   <footer class="page-footer">

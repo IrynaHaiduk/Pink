@@ -2,12 +2,14 @@ const path = require('path');
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const SpriteLoaderPlugin = require('svg-sprite-loader/plugin');
-const CleanWebpackPlugin = require('clean-webpack-plugin');
+const {
+  CleanWebpackPlugin
+} = require('clean-webpack-plugin');
 const ImageminWebpWebpackPlugin = require("imagemin-webp-webpack-plugin");
 const webpack = require("webpack");
-/* var $ = require("jquery");
-var $ = require("jquery-ui"); */
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
+const fs = require('fs')
 
 
 const config = {
@@ -68,6 +70,17 @@ const config = {
           spriteFilename: 'img/i-sprite.svg',
           runtimeCompat: true
         }
+      },
+
+      {
+        test: /\.html$/,
+        include: path.resolve(__dirname, 'source/html'),
+        use: {
+          loader: "file-loader",
+          options: {
+            name: "[name].[ext]",
+          },
+        },
       }
     ]
   },
@@ -95,7 +108,11 @@ const config = {
   //     }
   // },
   plugins: [
-    new CleanWebpackPlugin([__dirname + '/build']),
+
+
+    // new CleanWebpackPlugin([__dirname + '/build']),
+    new CleanWebpackPlugin(),
+
     new SpriteLoaderPlugin(),
 
     new MiniCssExtractPlugin({
@@ -110,9 +127,12 @@ const config = {
       jQuery: 'jquery',
       'window.jquery': 'jquery',
       'window.jQuery': 'jquery',
-      //"window.$": "jquery"
     })
   ]
 };
+
+
+
+
 
 module.exports = config;

@@ -1308,6 +1308,50 @@ eval("var logLevel = \"info\";\n\nfunction dummy() {}\n\nfunction shouldLog(leve
 
 /***/ }),
 
+/***/ "./source/html sync recursive \\.html$":
+/*!**********************************!*\
+  !*** ./source/html sync \.html$ ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var map = {\n\t\"./competition.html\": \"./source/html/competition.html\",\n\t\"./index.html\": \"./source/html/index.html\",\n\t\"./photos.html\": \"./source/html/photos.html\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./source/html sync recursive \\\\.html$\";\n\n//# sourceURL=webpack:///./source/html_sync_\\.html$?");
+
+/***/ }),
+
+/***/ "./source/html/competition.html":
+/*!**************************************!*\
+  !*** ./source/html/competition.html ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"competition.html\";\n\n//# sourceURL=webpack:///./source/html/competition.html?");
+
+/***/ }),
+
+/***/ "./source/html/index.html":
+/*!********************************!*\
+  !*** ./source/html/index.html ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"index.html\";\n\n//# sourceURL=webpack:///./source/html/index.html?");
+
+/***/ }),
+
+/***/ "./source/html/photos.html":
+/*!*********************************!*\
+  !*** ./source/html/photos.html ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"photos.html\";\n\n//# sourceURL=webpack:///./source/html/photos.html?");
+
+/***/ }),
+
 /***/ "./source/img sync recursive \\.(jpe?g|png|gif|svg|webp|webmanifest|ico|xml)$":
 /*!*************************************************************************!*\
   !*** ./source/img sync \.(jpe?g|png|gif|svg|webp|webmanifest|ico|xml)$ ***!
@@ -2526,7 +2570,7 @@ eval("module.exports = __webpack_require__.p + \"img/youtube.svg\";\n\n//# sourc
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sass_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sass/style.scss */ \"./source/sass/style.scss\");\n/* harmony import */ var _sass_style_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_sass_style_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\nfunction importAll(r) {\n  r.keys().forEach(r);\n}\n\nimportAll(__webpack_require__(\"./source/js sync recursive \\\\.js$\"));\nimportAll(__webpack_require__(\"./source/img sync recursive \\\\.(jpe?g|png|gif|svg|webp|webmanifest|ico|xml)$\"));\n\n__webpack_require__(/*! webpack-jquery-ui */ \"./node_modules/webpack-jquery-ui/index.js\");\n\n__webpack_require__(/*! webpack-jquery-ui/css */ \"./node_modules/webpack-jquery-ui/css.js\");\n\n//# sourceURL=webpack:///./source/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sass_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sass/style.scss */ \"./source/sass/style.scss\");\n/* harmony import */ var _sass_style_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_sass_style_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\nfunction importAll(r) {\n  r.keys().forEach(r);\n}\n\nimportAll(__webpack_require__(\"./source/js sync recursive \\\\.js$\"));\nimportAll(__webpack_require__(\"./source/html sync recursive \\\\.html$\"));\nimportAll(__webpack_require__(\"./source/img sync recursive \\\\.(jpe?g|png|gif|svg|webp|webmanifest|ico|xml)$\"));\n\n__webpack_require__(/*! webpack-jquery-ui */ \"./node_modules/webpack-jquery-ui/index.js\");\n\n__webpack_require__(/*! webpack-jquery-ui/css */ \"./node_modules/webpack-jquery-ui/css.js\");\n\n//# sourceURL=webpack:///./source/index.js?");
 
 /***/ }),
 
@@ -2607,7 +2651,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(f
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function($) { // Ждем, когда загрузится DOM-дерево, а потовыполняем js-код\n\ndocument.addEventListener('DOMContentLoaded', () => {\n  var params = {\n    min: 0,\n    max: 100,\n    //Отпустили ползунок слайдера\n    change: function change(e) {\n      console.log(\"Change\");\n\n      if ($(this).slider('value') == 0) {\n        var parent = $(this).closest(\".sliders-settings__item\");\n        $('.sliders-settings__img', parent).removeClass('sliders-settings__img--active');\n      }\n    },\n    //Тянем ползунок слайдера\n    slide: function slide(e) {\n      console.log(\"Slide\");\n      var parent = $(this).closest(\".sliders-settings__item\");\n      $('.sliders-settings__img', parent).addClass('sliders-settings__img--active');\n    }\n  };\n  $(\".js-slider\").slider(params);\n  var sliderBtns = document.querySelectorAll(\".sliders-settings__img\");\n  var sliders = document.querySelectorAll(\".js-slider\");\n\n  function removeSliders() {\n    sliders.forEach(function (item) {\n      item.style.display = \"none\";\n    });\n  }\n\n  function showSliders() {\n    sliders.forEach(function (item) {\n      item.style.display = \"block\";\n    });\n  }\n\n  function removeActiveBtns() {\n    sliderBtns.forEach(function (item) {\n      item.classList.remove(\"sliders-settings__img--active\");\n    });\n  }\n\n  function initSlaider() {\n    if (document.documentElement.clientWidth >= 660) {\n      showSliders();\n      removeActiveBtns();\n    } else {\n      removeActiveBtns();\n      removeSliders();\n      sliderBtns[0].classList.add('sliders-settings__img--active');\n      sliders[0].style.display = \"block\";\n      sliderBtns.forEach(function (item, index) {\n        item.addEventListener('click', function (e) {\n          removeActiveBtns();\n          removeSliders();\n          item.classList.add('sliders-settings__img--active');\n          var sibling = item.nextElementSibling.style.display = \"block\";\n        });\n      });\n    }\n  }\n\n  initSlaider();\n  $(window).resize(function () {\n    initSlaider();\n  });\n});\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\")))\n\n//# sourceURL=webpack:///./source/js/slider-range.js?");
+eval("/* WEBPACK VAR INJECTION */(function($) { // Ждем, когда загрузится DOM-дерево, а потовыполняем js-код\n\ndocument.addEventListener('DOMContentLoaded', () => {\n  //Описываем параметры для слайдера\n  var params = {\n    //Диапазон значений ползунка\n    min: 0,\n    max: 100,\n    //Отпустили ползунок слайдера\n    change: function change(e) {\n      // Когда ползунок доходит до левого края, делаем кнопку неактивной\n      if ($(this).slider('value') == 0) {\n        var parent = $(this).closest(\".sliders-settings__item\");\n        $('.sliders-settings__img', parent).removeClass('sliders-settings__img--active');\n      }\n    },\n    //Тянем ползунок слайдера\n    slide: function slide(e) {\n      // Когда мы тянем ползунок, соответствующая ему кнопка становится активной\n      var parent = $(this).closest(\".sliders-settings__item\");\n      $('.sliders-settings__img', parent).addClass('sliders-settings__img--active');\n    }\n  }; //Запускаем слайдер\n\n  $(\".js-slider\").slider(params);\n  var sliderBtns = document.querySelectorAll(\".sliders-settings__img\");\n  var sliders = document.querySelectorAll(\".js-slider\");\n\n  function removeSliders() {\n    sliders.forEach(function (item) {\n      item.style.display = \"none\";\n    });\n  }\n\n  function showSliders() {\n    sliders.forEach(function (item) {\n      item.style.display = \"block\";\n    });\n  }\n\n  function removeActiveBtns() {\n    sliderBtns.forEach(function (item) {\n      item.removeClass(\"sliders-settings__img--active\");\n    });\n  } //Описываем поведение слайдера на различной ширине экрана устройства\n\n\n  function initSlaider() {\n    if (document.documentElement.clientWidth >= 660) {\n      // На планшетной версии и выше отображаем все слайдеры и делаем кнопки неактивными\n      showSliders();\n      removeActiveBtns();\n    } else {\n      //При загрузке страницы на мобильной версии оставляем активной первую кнопку и слайдер к ней\n      removeActiveBtns();\n      removeSliders();\n      sliderBtns[0].addClass('sliders-settings__img--active');\n      sliders[0].style.display = \"block\"; //При клике на кнопку, делаем ее активной и отображаем соответствующий ей слайдер\n\n      sliderBtns.forEach(function (item, index) {\n        item.addEventListener('click', function (e) {\n          removeActiveBtns();\n          removeSliders();\n          item.addClass('sliders-settings__img--active');\n          item.nextElementSibling.style.display = \"block\";\n        });\n      });\n    }\n  }\n\n  initSlaider();\n  $(window).resize(function () {\n    initSlaider();\n  });\n});\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\")))\n\n//# sourceURL=webpack:///./source/js/slider-range.js?");
 
 /***/ }),
 

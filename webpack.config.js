@@ -9,7 +9,7 @@ const ImageminWebpWebpackPlugin = require("imagemin-webp-webpack-plugin");
 const webpack = require("webpack");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
-const fs = require('fs')
+const fs = require('fs');
 
 
 const config = {
@@ -21,7 +21,7 @@ const config = {
     filename: '[name].js',
     chunkFilename: '[name].[contenthash].bundle.js',
     path: path.resolve(__dirname, 'build'),
-    publicPath: '/build/'
+    publicPath: '/'
 
   },
   // watch: devMode,

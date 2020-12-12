@@ -1,18 +1,23 @@
 .contacts {
   text-align: center;
-  background-image: url("../img/contacts-bg-mb.png");
+  /*   background-image: url("/img/contacts-bg-mb.png");
   background-size: 100% 123px;
   //min-height: 123px;
   background-position: center 324px;
   background-repeat: no-repeat;
-  overflow: hidden;
+  overflow: hidden; */
 }
 
 .contacts__wrapper {
   padding-top: 43px;
-  background-color: white;
+  padding-bottom: 70px;
+  // background-color: transparent;
   position: relative;
-  z-index: 2;
+  z-index: 5;
+  background-image: url("/img/contacts-bg-mb.png");
+  background-size: 100% 447px;
+  background-repeat: no-repeat;
+  background-position: center top;
 }
 
 .contacts__heading {
@@ -29,12 +34,15 @@
 
 @media (min-width: $tablet-width) {
   .contacts {
-    background-image: url("../img/contacts-bg-tablet.png");
-    background-position: center 350px;
+    /*   background-image: url("/img/contacts-bg-tablet.png");
+    background-position: center 350px; */
   }
 
   .contacts__wrapper {
     padding-top: 46px;
+    background-image: url("/img/contacts-bg-tablet.png");
+    background-size: 100% 473px;
+    padding-bottom: 94px;
   }
 
   .contacts__heading {
@@ -55,13 +63,15 @@
 
 @media (min-width: $desktop-width) {
   .contacts {
-    background-image: url("../img/contacts-bg-desktop.png");
-    background-position: center 345px;
+    /* background-image: url("/img/contacts-bg-desktop.png");
+    background-position: center 345px; */
   }
 
   .contacts__wrapper {
     padding-top: 63px;
-    padding-bottom: 20px;
+    padding-bottom: 52px;
+    background-image: url("/img/contacts-bg-desktop.png");
+    background-size: 100% 394px;
   }
 
   .contacts__heading {

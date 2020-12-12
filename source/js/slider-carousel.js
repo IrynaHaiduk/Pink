@@ -13,13 +13,13 @@ document.addEventListener('DOMContentLoaded', () => {
     adaptiveHeight: true,
     prevArrow: `<button type="button" class="slick-arrow slick-prev">
   <svg role="img" class ="reviews__arrow reviews__arrow--left" width="22" height="41" alt="arrow-left">
-  <use xlink:href="/build/img/i-sprite.svg#arrow">
+  <use xlink:href="img/i-sprite.svg#arrow">
   </use>
   </svg>
   </button>`,
     nextArrow: `<button type="button" class="slick-arrow slick-next">
   <svg role="img" class ="reviews__arrow reviews__arrow--right" width="22" height="41" alt="arrow-right">
-  <use xlink:href="/build/img/i-sprite.svg#arrow">
+  <use xlink:href="img/i-sprite.svg#arrow">
   </use>
   </svg>
   </button>`,

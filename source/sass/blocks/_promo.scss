@@ -1,6 +1,6 @@
 .promo {
   background-color: #1d2631;
-  background-image: url("../img/promo-bg-mb.png");
+  background-image: url("/img/promo-bg-mb.png");
   background-repeat: no-repeat;
   background-position: top;
   background-size: 100% 462px;
@@ -10,7 +10,7 @@
   min-height: 240px;
 
   @media (min-resolution: $retina-dppx) {
-    background-image: url("../img/promo-bg-mb@2x.png");
+    background-image: url("/img/promo-bg-mb@2x.png");
   }
 
   &--index {
@@ -42,14 +42,14 @@
   .promo {
     margin-top: -110px;
     min-height: 440px;
-    background-image: url("../img/promo-bg-tablet.png");
+    background-image: url("/img/promo-bg-tablet.png");
     background-size: 100% 726px;
     padding-top: 179px;
     position: relative;
     z-index: 1;
 
     @media (min-resolution: $retina-dppx) {
-      background-image: url("../img/promo-bg-tablet@2x.png");
+      background-image: url("/img/promo-bg-tablet@2x.png");
     }
 
     &--index {
@@ -90,12 +90,12 @@
 
 @media (min-width: $desktop-width) {
   .promo {
-    background-image: url("../img/promo-bg-desktop.png");
+    background-image: url("/img/promo-bg-desktop.png");
     background-size: 100% 853px;
     min-height: 394px;
 
     @media (min-resolution: $retina-dppx) {
-      background-image: url("../img/promo-bg-desktop@2x.png");
+      background-image: url("/img/promo-bg-desktop@2x.png");
     }
 
     &--index {

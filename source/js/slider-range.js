@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function removeActiveBtns() {
     sliderBtns.forEach(function (item) {
-      item.removeClass("sliders-settings__img--active");
+      item.classList.remove("sliders-settings__img--active");
     });
   }
 
@@ -61,15 +61,20 @@ document.addEventListener('DOMContentLoaded', () => {
       //При загрузке страницы на мобильной версии оставляем активной первую кнопку и слайдер к ней
       removeActiveBtns();
       removeSliders();
-      sliderBtns[0].addClass('sliders-settings__img--active');
-      sliders[0].style.display = "block";
+      if (sliderBtns[0]) {
+        sliderBtns[0].classList.add('sliders-settings__img--active');
+      }
+
+      if (sliders[0]) {
+        sliders[0].style.display = "block";
+      }
 
       //При клике на кнопку, делаем ее активной и отображаем соответствующий ей слайдер
       sliderBtns.forEach(function (item, index) {
         item.addEventListener('click', function (e) {
           removeActiveBtns();
           removeSliders();
-          item.addClass('sliders-settings__img--active');
+          item.classList.add('sliders-settings__img--active');
           item.nextElementSibling.style.display = "block";
         });
       });

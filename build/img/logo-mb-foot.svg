@@ -1,8 +1,0 @@
-export default {
-      id: "logo-mb-foot-usage",
-      viewBox: "0 0 146.3 40.37",
-      url: __webpack_public_path__ + "C:\\Users\\Ирина\\Desktop\\Pink\\source\\img\\logo-mb-foot.svg",
-      toString: function () {
-        return this.url;
-      }
-    }

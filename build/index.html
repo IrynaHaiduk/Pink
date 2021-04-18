@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pink: main page</title>
+  <link rel="stylesheet" href="bundle.css">
+
+</head>
+
+<body>
+  <header class="page-header js-page-header page-header--nojs">
+    <div class="page-header__wrapper">
+      <div class="page-header__logo js-page-header__logo">
+        <a class="page-header__link" aria-label="Логотип Pink">
+          <svg role="img" class="page-header__img page-header__img--mb" width="74.42" height="22.86">
+            <use xlink:href="img/i-sprite.svg#logo-mb">
+            </use>
+          </svg>
+          <svg role="img" class="page-header__img page-header__img--tablet" width="146.3" height="40.37">
+            <use xlink:href="img/i-sprite.svg#logo-tablet">
+            </use>
+          </svg>
+          <svg role="img" class="page-header__img page-header__img--desktop" width="146.3" height="40.37">
+            <use xlink:href="img/i-sprite.svg#logo-desktop">
+            </use>
+          </svg>
+        </a>
+      </div>
+
+
+      <nav class="page-header__main-nav main-nav js-main-nav main-nav--nojs">
+        <button class="main-nav__toggle js-main-nav__toggle" type="button" aria-label="Открыть">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="main-nav__list site-list js-site-list">
+          <li class="site-list__item">
+            <a class="site-list__link site-list__link--active">
+              Главная
+            </a>
+          </li>
+          <li class="site-list__item">
+            <a href="photos.html" class="site-list__link">
+              Фотографии
+            </a>
+          </li>
+          <li class="site-list__item">
+            <a href="competition.html" class="site-list__link">
+              Конкурс
+            </a>
+          </li>
+          <li class="site-list__item">
+            <a href="https://htmlacademy.ru/" class="site-list__link">
+              HTML Academy
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-main">
+    <h1 class="page-main__title visually-hidden">
+      Фотоприложение Pink для раскашивания серых будней
+    </h1>
+    <section class="page-main__promo promo promo--index">
+      <div class="container">
+        <div class="promo__wrapper">
+          <h2 class="promo__header promo__header--index">
+            Взгляните на жизнь иначе!
+          </h2>
+        </div>
+      </div>
+
+      <div class="promo__app">
+        <picture>
+          <source type="image/webp" media="(min-width: 1200px)"
+            srcset="img/promo-app-desktop.webp 1x, img/promo-app-desktop@2x.webp 2x">
+          <source type="image/webp" media="(min-width: 660px)"
+            srcset="img/promo-app-tablet.webp 1x, img/promo-app-tablet@2x.webp 2x">
+          <source type="image/webp" srcset="img/promo-app-mb.webp, img/promo-app-mb@2x.webp 2x">
+
+          <source media="(min-width: 1200px)" srcset="img/promo-app-desktop.png 1x, img/promo-app-desktop@2x.png 2x">
+          <source media="(min-width: 660px)" srcset="img/promo-app-tablet.png 1x, img/promo-app-tablet@2x.png 2x">
+          <img src="img/promo-app-mb.png" srcset="img/promo-app-mb@2x.png 2x" width="320" height="314" alt="Pink app">
+        </picture>
+      </div>
+
+      <div class="promo__download download-app">
+        <div class="container">
+          <div class="download-app__wrapper">
+            <button class="download-app__button">
+              Скачать приложение
+            </button>
+            <ul class="download-app__list devices">
+              <li class="devices__item">
+                <picture>
+                  <source type="image/webp" srcset="img/apple-logo.webp, img/apple-logo@2x.webp 2x">
+                  <img src="img/apple-logo.png" srcset="img/apple-logo@2x.png 2x" alt="apple-device" width="47"
+                    height="56">
+                </picture>
+              </li>
+              <li class="devices__item">
+                <picture>
+                  <source type="image/webp" srcset="img/android-logo.webp, img/android-logo@2x.webp 2x">
+                  <img src="img/android-logo.png" srcset="img/android-logo@2x.png 2x" alt="android-device" width="43"
+                    height="47">
+                </picture>
+              </li>
+              <li class="devices__item">
+                <picture>
+                  <source type="image/webp" srcset="img/microsoft-logo.webp, img/microsoft-logo@2x.webp 2x">
+                  <img src="img/microsoft-logo.png" srcset="img/microsoft-logo@2x.png 2x" alt="microsoft-device"
+                    width="44" height="41">
+                </picture>
+              </li>
+            </ul>
+            <p class="download-app__text">
+              Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-main__features features">
+      <div class="container">
+        <h2 class="features__title">
+          Устали от серости мегаполиса?
+          <span>
+            Нам есть, что вам
+            предложить!
+          </span>
+        </h2>
+      </div>
+
+      <div class="features__wrapper skew-bg">
+        <div class="feature__box">
+          <div class="container">
+            <div class="features__holder">
+
+              <ul class="features__images features-images">
+                <li class="features-images__item">
+                  <picture>
+                    <source type="image/webp" media="(min-width: 1200px)"
+                      srcset="img/features-1-desktop.webp 1x, img/features-1-desktop@2x.webp 2x">
+
+                    <img class="features-images__img" src="img/features-1-desktop.png"
+                      srcset="img/features-1-desktop@2x.png 2x" width="186" height="382" alt="Feature-1">
+                  </picture>
+                </li>
+                <li class="features-images__item">
+                  <picture>
+                    <source type="image/webp" media="(min-width: 1200px)"
+                      srcset="img/features-2-desktop.webp 1x, img/features-2-desktop@2x.webp 2x">
+
+                    <img class="features-images__img" src="img/features-2-desktop.png"
+                      srcset="img/features-2-desktop@2x.png 2x" width="186" height="382" alt="Feature-2">
+                  </picture>
+                </li>
+                <li class="features-images__item">
+                  <picture>
+                    <source type="image/webp" media="(min-width: 1200px)"
+                      srcset="img/features-3-desktop.webp 1x, img/features-3-desktop@2x.webp 2x">
+                    <source type="image/webp" media="(min-width: 660px)"
+                      srcset="img/features-3-tablet.webp 1x, img/features-3-tablet@2x.webp 2x">
+                    <source type="image/webp" srcset="img/features-3-mb.webp, img/features-3-mb@2x.webp 2x">
+
+                    <source media="(min-width: 1200px)"
+                      srcset="img/features-3-desktop.png 1x, img/features-3-desktop@2x.png 2x">
+                    <source media="(min-width: 660px)"
+                      srcset="img/features-3-tablet.png 1x, img/features-3-tablet@2x.png 2x">
+                    <img class="features-images__img" src="img/features-3-mb.png" srcset="img/features-3-mb@2x.png 2x"
+                      width="157" height="320" alt="Feature-3">
+                  </picture>
+                </li>
+              </ul>
+
+              <ul class="features__description features-description">
+                <li class="features-description__item">
+                  <div class="features-description__holder">
+                    <h3 class="features-description__title">
+                      Поднимает настроение
+                    </h3>
+                    <p class="features-description__text">
+                      Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!
+                    </p>
+                  </div>
+                </li>
+                <li class="features-description__item">
+                  <div class="features-description__holder">
+                    <h3 class="features-description__title">
+                      Меняет мир вокруг
+                    </h3>
+                    <p class="features-description__text">
+                      Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить&nbsp;эффект
+                    </p>
+                  </div>
+                </li>
+                <li class="features-description__item">
+                  <div class="features-description__holder">
+                    <h3 class="features-description__title">
+                      Заводит новых друзей
+                    </h3>
+                    <p class="features-description__text">
+                      Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-main__research research">
+      <div class="container">
+        <div class="research__wrapper">
+          <div class="research__img">
+            <picture>
+              <source type="image/webp" media="(min-width: 1200px)"
+                srcset="img/research-desktop.webp 1x, img/research-desktop@2x.webp 2x">
+              <source type="image/webp" srcset="img/research-tablet.webp, img/research-tablet@2x.webp 2x">
+
+              <source media="(min-width: 1200px)" srcset="img/research-desktop.png 1x, img/research-desktop@2x.png 2x">
+              <img src="img/research-tablet.png" srcset="img/research-tablet@2x.png 2x" width="238" height="276"
+                alt="research">
+            </picture>
+          </div>
+          <div class="research__info">
+            <h2 class="research__title">
+              Эффект на&nbsp;24&nbsp;часа!
+            </h2>
+            <p class="research__text">
+              Британские ученые провели исследования
+              и доказали, что&nbsp;положительный эффект
+              от&nbsp;использования приложения длится
+              целые сутки!
+            </p>
+            <a href="#" class="research__link">
+              Узнать больше об исследовании
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-main__reviews reviews">
+      <div class="container">
+        <div class="reviews__list">
+          <div class="reviews__item review">
+            <div class="review__wrapper">
+              <div class="rewiew__box">
+                <h3 class="review__title">
+                  Николай Петров
+                </h3>
+                <p class="review__subtitle">
+                  25 лет, водитель трамвая
+                </p>
+              </div>
+              <p class="review__text">
+                «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я
+                познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+              </p>
+            </div>
+          </div>
+          <div class="reviews__item review">
+            <div class="review__wrapper">
+              <div class="rewiew__box">
+                <h3 class="review__title">
+                  Ирина Николаевна
+                </h3>
+                <p class="review__subtitle">
+                  18 лет, программист
+                </p>
+              </div>
+              <p class="review__text">
+                «Буквально месяц назад открыла для себя суперское мобильное приложение.
+                Моя жить стала ярче с Pink и заиграла новыми красками. Теперь обрабатываю фотографии только с ним.»
+              </p>
+            </div>
+          </div>
+          <div class="reviews__item review">
+            <div class="review__wrapper">
+              <div class="rewiew__box">
+                <h3 class="review__title">
+                  Валерий Васильев
+                </h3>
+                <p class="review__subtitle">
+                  20 лет, студент
+                </p>
+              </div>
+              <p class="review__text">
+                «Пользуюсь данным приложением чуть больше месяца. Это приложение будет полезно абсолютно для всех.
+                Удобно, доступно, качественно.»
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-main__tariffs tariffs skew-bg">
+      <div class="tariffs__wrapper">
+        <!--   <div class="tariffs__item tariffs__item--first">
+            <div class="tariffs__header"></div>
+            <div class="tariffs__cell">
+              Розовый фильтр
+            </div>
+            <div class="tariffs__cell">
+              Смайлики
+            </div>
+            <div class="tariffs__cell">
+              Комментарии
+            </div>
+          </div> -->
+        <div class="tariffs__item">
+          <div class="tariffs__header tariffs__header--base">
+            <h3 class="tariffs__title">База</h3>
+            <p class="tariffs__price">1,99 USD</p>
+          </div>
+          <div class="tariffs__cell tariffs__cell--checked">
+            <p>
+              Розовый фильтр
+            </p>
+          </div>
+          <div class="tariffs__cell tariffs__cell--unchecked">
+            <p>
+              Смайлики
+            </p>
+          </div>
+          <div class="tariffs__cell tariffs__cell--unchecked">
+            <p>
+              Комментарии
+            </p>
+          </div>
+        </div>
+        <div class="tariffs__item">
+          <div class="tariffs__header tariffs__header--standard">
+            <h3 class="tariffs__title">Стандарт</h3>
+            <p class="tariffs__price">3,99 USD</p>
+          </div>
+          <div class="tariffs__cell tariffs__cell--checked">
+            <p>
+              Розовый фильтр
+            </p>
+          </div>
+          <div class="tariffs__cell tariffs__cell--checked">
+            <p>
+              Смайлики
+            </p>
+          </div>
+          <div class="tariffs__cell tariffs__cell--unchecked">
+            <p>
+              Комментарии
+            </p>
+          </div>
+        </div>
+        <div class="tariffs__item">
+          <div class="tariffs__header">
+            <h3 class="tariffs__title">Анлим</h3>
+            <p class="tariffs__price">9,99 USD</p>
+          </div>
+          <div class="tariffs__cell tariffs__cell--checked">
+            <p>
+              Розовый фильтр
+            </p>
+          </div>
+          <div class="tariffs__cell tariffs__cell--checked">
+            <p>
+              Смайлики
+            </p>
+          </div>
+          <div class="tariffs__cell tariffs__cell--checked">
+            <p>
+              Комментарии
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-main__contacts contacts">
+      <div class="contacts__wrapper">
+        <div class="container">
+          <h2 class="visually-hidden">Наши контакты</h2>
+          <div class="contacts__heading">
+            <p>Остались вопросы?</p>
+            <p>Свяжитесь с нами!</p>
+          </div>
+
+          <ul class="contacts__list">
+            <li class="contacts__item contact">
+              <h3 class="contact__title">
+                Звоните:
+              </h3>
+              <p class="contact__text">
+                <a class="contact__link" href="tel:+78125556666">+7 (812) 555-66-66</a>
+              </p>
+            </li>
+            <li class="contacts__item contact">
+              <h3 class="contact__title">
+                Пишите:
+              </h3>
+              <p class="contact__text">
+                <a class="contact__link"
+                  href="mail@htmlacademy.ru?subject=Консультация по приложению Pink">mail@htmlacademy.ru</a>
+              </p>
+            </li>
+            <li class="contacts__item contact">
+              <h3 class="contact__title">
+                Приезжайте в гости:
+              </h3>
+              <p class="contact__text">
+                ул. Большая
+                Конюшенная,&nbsp;19/8
+              </p>
+
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="contacts__map map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253003165!2d30.320858716173472!3d59.938719169054075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCDQoNC-0YHRgdC40Y8sIDE5MTE4Ng!5e0!3m2!1sru!2sua!4v1605768975756!5m2!1sru!2sua"
+          width="320" height="645" style="border:0;" allowfullscreen>
+        </iframe>
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="page-footer page-footer--hidden">
+    <div class="container">
+      <div class="page-footer__wrapper">
+
+        <div class="page-footer__logo">
+          <a class="page-footer__link" aria-label="Логотип Pink">
+            <svg role="img" class="page-footer__img page-footer__img--mb" width="147" height="40">
+              <use xlink:href="img/i-sprite.svg#logo-mb-foot">
+              </use>
+            </svg>
+            <svg role="img" class="page-footer__img page-footer__img--desktop" width="147" height="40">
+              <use xlink:href="img/i-sprite.svg#logo-desk-foot">
+              </use>
+            </svg>
+          </a>
+        </div>
+
+        <div class="page-footer__social social">
+          <ul class="social__list">
+
+            <li class="social__item">
+              <a target="_blank" class="social__link" href="#" aria-label="Pink on Twitter">
+                <svg role="img" class="social__icon social__icon--twitter" width="18" height="14">
+                  <use xlink:href="img/i-sprite.svg#twitter">
+                  </use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="social__item">
+              <a target="_blank" class="social__link" href="#" aria-label="Pink on Facebbok">
+                <svg role="img" class="social__icon social__icon--fb" width="9" height="18">
+                  <use xlink:href="img/i-sprite.svg#fb">
+                  </use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="social__item">
+              <a target="_blank" class="social__link" href="#" aria-label="Pink on Youtube">
+                <svg role="img" class="social__icon social__icon--youtube" width="15" height="13">
+                  <use xlink:href="img/i-sprite.svg#youtube">
+                  </use>
+                </svg>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+        <div class="page-footer__copyright copyright">
+          <a class="copyright__link" target="_blank" href="#" aria-label="Перейти на сайт HTML Academy">
+            <span class="copyright__text">Разработано</span>
+            <svg role="img" class="copyright__logo" width="27" height="34">
+              <use xlink:href="./img/i-sprite.svg#logo-academy">
+              </use>
+            </svg>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <script src="bundle.js"></script>
+</body>
+
+</html>

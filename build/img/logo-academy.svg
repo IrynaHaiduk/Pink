@@ -1,0 +1,8 @@
+export default {
+      id: "logo-academy-usage",
+      viewBox: "0 0 154.38 195.33",
+      url: __webpack_public_path__ + "C:\\Users\\Ирина\\Desktop\\Pink\\source\\img\\logo-academy.svg",
+      toString: function () {
+        return this.url;
+      }
+    }

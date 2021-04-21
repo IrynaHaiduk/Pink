@@ -870,7 +870,8 @@ li {
     margin-bottom: 55px; } }
 
 .page-competition__conditions {
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  padding-top: 40px; }
 
 .page-competition__text {
   font-size: 14px;
@@ -886,7 +887,8 @@ li {
 
 @media (min-width: 660px) {
   .page-competition__conditions {
-    margin-bottom: 71px; }
+    margin-bottom: 71px;
+    padding-top: 60px; }
   .page-competition__text {
     font-size: 18px;
     width: 490px; }

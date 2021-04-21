@@ -694,7 +694,7 @@ li {
 
 .promo {
   background-color: #1d2631;
-  background-image: url("/img/promo-bg-mb.png");
+  background-image: url(/img/promo-bg-mb.png);
   background-repeat: no-repeat;
   background-position: top;
   background-size: 100% 462px;
@@ -704,7 +704,7 @@ li {
   min-height: 240px; }
   @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
     .promo {
-      background-image: url("/img/promo-bg-mb@2x.png"); } }
+      background-image: url(/img/promo-bg-mb@2x.png); } }
   .promo--index {
     padding-top: 91px; }
 
@@ -728,14 +728,14 @@ li {
   .promo {
     margin-top: -110px;
     min-height: 440px;
-    background-image: url("/img/promo-bg-tablet.png");
+    background-image: url(/img/promo-bg-tablet.png);
     background-size: 100% 726px;
     padding-top: 179px;
     position: relative;
     z-index: 1; } }
   @media (min-width: 660px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 660px) and (min-resolution: 1.5dppx) {
     .promo {
-      background-image: url("/img/promo-bg-tablet@2x.png"); } }
+      background-image: url(/img/promo-bg-tablet@2x.png); } }
 
 @media (min-width: 660px) {
     .promo--index {
@@ -765,12 +765,12 @@ li {
 
 @media (min-width: 1200px) {
   .promo {
-    background-image: url("/img/promo-bg-desktop.png");
+    background-image: url(/img/promo-bg-desktop.png);
     background-size: 100% 853px;
     min-height: 394px; } }
   @media (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 1200px) and (min-resolution: 1.5dppx) {
     .promo {
-      background-image: url("/img/promo-bg-desktop@2x.png"); } }
+      background-image: url(/img/promo-bg-desktop@2x.png); } }
 
 @media (min-width: 1200px) {
     .promo--index {

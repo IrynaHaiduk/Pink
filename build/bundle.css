@@ -2242,7 +2242,8 @@ li {
     padding-top: 46px;
     background-image: url("/img/contacts-bg-tablet.png");
     background-size: 100% 473px;
-    padding-bottom: 94px; }
+    padding-bottom: 94px;
+    background-color: white; }
   .contacts__heading {
     font-size: 40px;
     margin-bottom: 45px; }
